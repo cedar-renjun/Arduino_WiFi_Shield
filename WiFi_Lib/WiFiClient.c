@@ -65,16 +65,34 @@ static void delay(volatile uint32_t tick)
     while(tick--);
 }
 
-//Init the WiFiClient
+//*****************************************************************************
+//
+//! \brief Init the WiFiClient
+//!
+//! \param sock is the sock you special.
+//!
+//! \return none.
+//
+//*****************************************************************************
 void WiFiClient_Init(uint8_t sock)
 {
     _sock = sock;
 }
 
-// ServerAddr can be Host or IP
-// Example:
-// WiFiClient_Connect("www.baidu.com", 80);
-// WiFiClient_Connect("192.168.2.71", 80);
+//*****************************************************************************
+//
+//! \brief Connect to network via Host
+//!
+//! \param NetAddr.
+//! \param port.
+//! ServerAddr can be Host or IP
+//! Example:
+//! WiFiClient_Connect("www.baidu.com", 80);
+//! WiFiClient_Connect("192.168.2.71", 80);
+//!
+//! \return 0: FAILURE 1:SUCCESS
+//
+//*****************************************************************************
 int32_t WiFiClient_Connect(uint8_t* NetAddr, uint16_t port)
 {
     int32_t Result = 0;
@@ -98,6 +116,16 @@ int32_t WiFiClient_Connect(uint8_t* NetAddr, uint16_t port)
     return (Result);
 }
 
+//*****************************************************************************
+//
+//! \brief Connect to network via Host
+//!
+//! \param host.
+//! \param port.
+//!
+//! \return 0: FAILURE 1:SUCCESS
+//
+//*****************************************************************************
 static int32_t _ConnectViaHost(uint8_t* host, uint16_t port) 
 {
     uint8_t remote_addr[4] = {0, 0, 0, 0};
@@ -109,6 +137,16 @@ static int32_t _ConnectViaHost(uint8_t* host, uint16_t port)
     return (0);
 }
 
+//*****************************************************************************
+//
+//! \brief Connect to network via IP
+//!
+//! \param ip.
+//! \param port.
+//!
+//! \return 0: FAILURE 1:SUCCESS
+//
+//*****************************************************************************
 static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port) 
 {
     int32_t cnt = 50;
@@ -142,11 +180,30 @@ static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port)
     return (1);
 }
 
+//*****************************************************************************
+//
+//! \brief Write an byte to client.
+//!
+//! \param b is the data you want to write.
+//!
+//! \return 0: FAILURE others is the number of write.
+//
+//*****************************************************************************
 uint16_t WiFiClient_WriteByte(uint8_t b) 
 {
       return WiFiClient_WriteBlock(&b, 1);
 }
 
+//*****************************************************************************
+//
+//! \brief Write Block data to client.
+//!
+//! \param buf is the buffer of store data.
+//! \param size is the length of buffer.
+//!
+//! \return 0: FAILURE others is the number of write.
+//
+//*****************************************************************************
 uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size) 
 {
     if (_sock >= MAX_SOCK_NUM)
@@ -174,6 +231,15 @@ uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size)
     return (size);
 }
 
+//*****************************************************************************
+//
+//! \brief Check Data status.
+//!
+//! \param none.
+//!
+//! \return 
+//
+//*****************************************************************************
 int32_t WiFiClient_Available(void) 
 {
     if (_sock != 255)
@@ -184,6 +250,15 @@ int32_t WiFiClient_Available(void)
     return (0);
 }
 
+//*****************************************************************************
+//
+//! \brief Read byte from client.
+//!
+//! \param none.
+//!
+//! \return -1: FAILURE, others is the data.
+//
+//*****************************************************************************
 uint8_t WiFiClient_ReadByte(void) 
 {
     uint8_t b;
@@ -198,6 +273,16 @@ uint8_t WiFiClient_ReadByte(void)
     return (b);
 }
 
+//*****************************************************************************
+//
+//! \brief Read Block data from client.
+//!
+//! \param buf is the buffer of store data.
+//! \param size is the length of buffer.
+//!
+//! \return 0: SUCCESS -1: FAILURE.
+//
+//*****************************************************************************
 int32_t WiFiClient_ReadBlock(uint8_t* buf, uint16_t size)
 {
     if (!ServerDrv_GetDataBuf(_sock, buf, &size))
@@ -207,6 +292,15 @@ int32_t WiFiClient_ReadBlock(uint8_t* buf, uint16_t size)
     return (0);
 }
 
+//*****************************************************************************
+//
+//! \brief Peek
+//!
+//! \param none.
+//!
+//! \return the Data Get From Client.
+//
+//*****************************************************************************
 int32_t WiFiClient_Peek(void) 
 {
     uint8_t b;
@@ -221,6 +315,15 @@ int32_t WiFiClient_Peek(void)
     return (b);
 }
 
+//*****************************************************************************
+//
+//! \brief Flush the Client data buffer.
+//!
+//! \param none.
+//!
+//! \return .
+//
+//*****************************************************************************
 void WiFiClient_Flush(void) 
 {
     while (WiFiClient_Available())
@@ -229,6 +332,15 @@ void WiFiClient_Flush(void)
     }
 }
 
+//*****************************************************************************
+//
+//! \brief Stop the Client.
+//!
+//! \param none.
+//!
+//! \return .
+//
+//*****************************************************************************
 void WiFiClient_Stop(void) 
 {
     uint32_t i = 0;
@@ -248,6 +360,15 @@ void WiFiClient_Stop(void)
     _sock = 255;
 }
 
+//*****************************************************************************
+//
+//! \brief Check the client Connected status.
+//!
+//! \param none.
+//!
+//! \return the status.
+//
+//*****************************************************************************
 uint8_t WiFiClient_Connected(void) 
 {
     uint8_t s = 0;
@@ -267,6 +388,15 @@ uint8_t WiFiClient_Connected(void)
     }
 }
 
+//*****************************************************************************
+//
+//! \brief Get the Client status
+//!
+//! \param none.
+//!
+//! \return the status.
+//
+//*****************************************************************************
 uint8_t WiFiClient_Status(void) 
 {
     if (_sock == 255) 
