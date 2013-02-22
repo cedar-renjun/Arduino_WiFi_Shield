@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdint.h>
 
-void     WiFiClient_Init(uint8_t sock);
+void     WiFiClient_Init(void);
 int32_t  WiFiClient_Connect(uint8_t* NetAddr, uint16_t port);
 uint16_t WiFiClient_WriteByte(uint8_t b);
 uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size);

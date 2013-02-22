@@ -6,7 +6,7 @@
 #include "server_drv.h"
 
 //static uint16_t _srcport = 1024;
-static uint8_t _sock;
+//static uint8_t _sock;
 //uint8_t getFirstSocket();
 
 static int32_t _ConnectViaHost(uint8_t* host, uint16_t port);
@@ -17,10 +17,9 @@ static void delay(volatile uint32_t tick)
 	while(tick--);
 }
 
-//Init the WiFiClient
-void WiFiClient_Init(uint8_t sock)
+void WiFiClient_Init(void) 
 {
-    _sock = sock;
+    _sock = 0;
 }
 
 // ServerAddr can be Host or IP
@@ -101,11 +100,14 @@ uint16_t WiFiClient_WriteByte(uint8_t b)
 
 uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size) 
 {
+    /*
     if (_sock >= MAX_SOCK_NUM)
     {
         //setWriteError();
         return (0);
     }
+    */
+
     if (size==0)
     {
         //setWriteError();
@@ -152,7 +154,8 @@ uint8_t WiFiClient_ReadByte(void)
 
 int32_t WiFiClient_ReadBlock(uint8_t* buf, uint16_t size)
 {
-    if (!ServerDrv_GetDataBuf(_sock, buf, &size))
+    uint16_t _size = size;
+    if (!ServerDrv_GetDataBuf(_sock, buf, &_size))
     {
         return (-1);
     }
@@ -161,7 +164,7 @@ int32_t WiFiClient_ReadBlock(uint8_t* buf, uint16_t size)
 
 int32_t WiFiClient_Peek(void) 
 {
-    uint8_t b;
+    uint8_t b = 0;
 
     if (!WiFiClient_Available())
     {

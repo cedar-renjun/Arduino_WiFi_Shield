@@ -9,6 +9,13 @@
 
 #include "spi_drv.h"
 #include "wifi_drv.h"
+#include "WiFi.h"
+
+//extern int16_t   _state[MAX_SOCK_NUM];
+//extern uint16_t  _server_port[MAX_SOCK_NUM];
+
+extern int16_t   _state;
+extern uint8_t   _sock;
 
 // Network encrytion type
 // used in WiFiBegin Function
@@ -16,9 +23,7 @@
 #define WEP                     2
 #define WPA                     3
 
-
 void     WiFi_Init(void);
-uint8_t  WiFi_PortAvilGet(void);
 uint8_t* WiFi_FwVerGet(void);
 int32_t  WiFi_Begin(uint8_t NetType, uint8_t* ssid, ...);
 int8_t   WiFi_Disconnect(void);

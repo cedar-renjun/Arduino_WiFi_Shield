@@ -3,8 +3,11 @@
 #include "wl_definitions.h"
 #include "wl_types.h"
 
-//static int16_t   _state[MAX_SOCK_NUM];
-static uint16_t  _server_port[MAX_SOCK_NUM];
+//int16_t   _state[MAX_SOCK_NUM];
+//uint16_t  _server_port[MAX_SOCK_NUM];
+
+int16_t   _state = 0;
+uint8_t   _sock = 0;
 
 //TODO
 static int _WiFiBeginOpen(uint8_t* ssid);
@@ -21,6 +24,7 @@ void WiFi_Init(void)
     WiFiDrv_Init();
 }
 
+/*
 uint8_t WiFi_PortAvilGet(void)
 {
     uint8_t i = 0;
@@ -35,6 +39,7 @@ uint8_t WiFi_PortAvilGet(void)
 
     return (NO_SOCKET_AVAIL);
 }
+*/
 
 /*
 uint8_t WiFi_SocketAvilGet(void)
