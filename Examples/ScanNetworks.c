@@ -60,8 +60,6 @@ void WiFi_Cfg(void)
 
 }
 
-
-
 void PrintEncryptionType(uint8_t Type)
 {
     // read the encryption type and print out the name:

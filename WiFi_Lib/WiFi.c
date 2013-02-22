@@ -1,42 +1,3 @@
-//*****************************************************************************
-//
-//! \file WiFi.c
-//! \brief Function for Arduino WiFi Shield.
-//! \version 2.1.1.0
-//! \date 20/2/2013
-//! \author CooCox
-//! \copy
-//!
-//! Copyright (c)  2013, CooCox
-//! All rights reserved.
-//!
-//! Redistribution and use in source and binary forms, with or without
-//! modification, are permitted provided that the following conditions
-//! are met:
-//!
-//!     * Redistributions of source code must retain the above copyright
-//! notice, this list of conditions and the following disclaimer.
-//!     * Redistributions in binary form must reproduce the above copyright
-//! notice, this list of conditions and the following disclaimer in the
-//! documentation and/or other materials provided with the distribution.
-//!     * Neither the name of the <ORGANIZATION> nor the names of its
-//! contributors may be used to endorse or promote products derived
-//! from this software without specific prior written permission.
-//!
-//! THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-//! AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-//! IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-//! ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-//! LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-//! CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-//! SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-//! INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-//! CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-//! ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
-//! THE POSSIBILITY OF SUCH DAMAGE.
-//
-//*****************************************************************************
-
 #include "WiFi.h"
 #include "wifi_drv.h"
 #include "wl_definitions.h"
@@ -50,46 +11,16 @@ static int _WiFiBeginOpen(uint8_t* ssid);
 static int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx,uint8_t* key);
 static int _WiFiBeginWpa(uint8_t* ssid, uint8_t* passphrase);
 
-//*****************************************************************************
-//
-//! \brief Delay Function
-//!
-//! \param tick.
-//!
-//! \return None
-//! \note This function is only used internal.
-//
-//*****************************************************************************
 static void delay(volatile uint32_t tick)
 {
-    while(tick--);
+	while(tick--);
 }
 
-//*****************************************************************************
-//
-//! \brief Initialize the WiFi Module.
-//!
-//! \param none.
-//!
-//! \return none.
-//!
-//
-//*****************************************************************************
 void WiFi_Init(void)
 {
     WiFiDrv_Init();
 }
 
-//*****************************************************************************
-//
-//! \brief get available port.
-//!
-//! \param none.
-//!
-//! \return available port ,return NO_SOCKET_AVAIL indicate failure.
-//!
-//
-//*****************************************************************************
 uint8_t WiFi_PortAvilGet(void)
 {
     uint8_t i = 0;
@@ -122,30 +53,11 @@ uint8_t WiFi_SocketAvilGet(void)
 }
 */
 
-//*****************************************************************************
-//
-//! \brief Get the FrameWork version.
-//!
-//! \param none.
-//!
-//! \return the FwVersion.
-//
-//*****************************************************************************
 uint8_t* WiFi_FwVerGet(void)
 {
     return  WiFiDrv_GetFwVersion();
 }
 
-//*****************************************************************************
-//
-//! \brief connect to network
-//!
-//! \param NetType is the network type, can be one of the OPEN, WPA, WEP.
-//! \param ssid is network SSID
-//!
-//! \return the status of operate.
-//
-//*****************************************************************************
 int32_t WiFi_Begin(uint8_t NetType, uint8_t* ssid, ...)
 {
     uint8_t* _ssid      = ssid;
@@ -251,29 +163,11 @@ static int  _WiFiBeginWpa(uint8_t* ssid, uint8_t* passphrase)
     return (status);
 }
 
-//*****************************************************************************
-//
-//! \brief Disconnect the WiFi
-//!
-//! \param none.
-//!
-//! \return the status of operation.
-//
-//*****************************************************************************
 int8_t WiFi_Disconnect(void)
 {
     return WiFiDrv_Disconnect();
 }
 
-//*****************************************************************************
-//
-//! \brief Get Mac
-//!
-//! \param mac is the buffer to store mac address.
-//!
-//! \return the mac of wifi module.
-//
-//*****************************************************************************
 uint8_t* WiFi_MacAddrGet(uint8_t* mac)
 {
     uint8_t* _mac = WiFiDrv_GetMacAddress();
@@ -283,57 +177,21 @@ uint8_t* WiFi_MacAddrGet(uint8_t* mac)
     return (mac);
 }
    
-//*****************************************************************************
-//
-//! \brief Get IP adress.
-//!
-//! \param ip is the buffer to store data.
-//!
-//! \return none.
-//
-//*****************************************************************************
 void WiFi_LocalIPGet(uint8_t * ip)
 {
     WiFiDrv_GetIpAddress(ip);
 }
 
-//*****************************************************************************
-//
-//! \brief Get SubnetMask
-//!
-//! \param mask is the buffer to store data.
-//!
-//! \return none.
-//
-//*****************************************************************************
 void WiFi_SubnetMaskGet(uint8_t * mask)
 {
     WiFiDrv_GetSubnetMask(mask);
 }
 
-//*****************************************************************************
-//
-//! \brief Get gateway 
-//!
-//! \param ip is the buffer to store data.
-//!
-//! \return none.
-//
-//*****************************************************************************
 void WiFi_GatewayIPGet(uint8_t * gateway)
 {
     WiFiDrv_GetGatewayIP(gateway);
 }
 
-//*****************************************************************************
-//
-//! \brief Get Current BSSID
-//!
-//! \param bssid is the buffer to store data.
-//!
-//! \return the BSSID of current network.
-//
-//*****************************************************************************
 uint8_t* WiFi_BSSIDGet(uint8_t* bssid)
 {
     uint8_t* _bssid = WiFiDrv_GetCurrentBSSID();
@@ -341,15 +199,6 @@ uint8_t* WiFi_BSSIDGet(uint8_t* bssid)
     return (bssid);
 }
 
-//*****************************************************************************
-//
-//! \brief Scan the networks
-//!
-//! \param none.
-//!
-//! \return the number of scan networks.
-//
-//*****************************************************************************
 int8_t WiFi_ScanNetworks(void)
 {
     int8_t  attempts      = 10;
@@ -369,96 +218,26 @@ int8_t WiFi_ScanNetworks(void)
     return (numOfNetworks);
 }
 
-//*****************************************************************************
-//
-//! \brief Get the SSID
-//!
-//! \param networkItem is which you want to get.
-//! \note: you can set networkItem to CURRENT to get current network paramter.
-//!
-//! \return SSID.
-//
-//*****************************************************************************
-uint8_t* WiFiSSIDGet(uint8_t networkItem)
+uint8_t* WiFi_SSIDGet(uint8_t networkItem)
 {
-    if(CURRENT == networkItem)
-    {
-        return WiFiDrvGetCurrentSSID();
-    }
-    else
-    {
-        return WiFiDrvGetSSIDNetoworks(networkItem);
-    }
+    return WiFiDrv_GetSSIDNetoworks(networkItem);
 }
 
-//*****************************************************************************
-//
-//! \brief Get the Encryption Type
-//!
-//! \param networkItem is which you want to get.
-//! \note: you can set networkItem to CURRENT to get current network paramter.
-//!
-//! \return Encryption Type.
-//
-//*****************************************************************************
-uint8_t WiFiEncryptionTypeGet(uint8_t networkItem)
+uint8_t WiFi_EncryptionTypeGet(uint8_t networkItem)
 {
-    if(CURRENT == networkItem)
-    {
-        return WiFiDrvGetCurrentEncryptionType();
-    }
-    else
-    {
-        return WiFiDrvGetEncTypeNetowrks(networkItem);
-    }
+    return WiFiDrv_GetEncTypeNetowrks(networkItem);
 }
 
-//*****************************************************************************
-//
-//! \brief Get the RSSI
-//!
-//! \param networkItem is which you want to get.
-//! \note: you can set networkItem to CURRENT to get current network paramter.
-//!
-//! \return RSSI of select network.
-//
-//*****************************************************************************
-int32_t WiFiRSSIGet(uint8_t networkItem)
+int32_t WiFi_RSSIGet(uint8_t networkItem)
 {
-    if(CURRENT == networkItem)
-    {
-        return WiFiDrvGetCurrentRSSI();
-    }
-    else
-    {
-        return WiFiDrvGetRSSINetoworks(networkItem);
-    }
+    return WiFiDrv_GetRSSINetoworks(networkItem);
 }
 
-//*****************************************************************************
-//
-//! \brief Get WiFi status 
-//!
-//! \param none.
-//!
-//! \return the WiFi status.
-//
-//*****************************************************************************
 uint8_t WiFi_StatusGet(void)
 {
     return WiFiDrv_GetConnectionStatus();
 }
 
-//*****************************************************************************
-//
-//! \brief Get Ip By Host
-//!
-//! \param aHostname is host name, for example: www.google.com.
-//! \param aResult is ip address buffer.
-//!
-//! \return the result of the operation.
-//
-//*****************************************************************************
 int32_t WiFi_HostToIP(uint8_t* aHostname, uint8_t * aResult)
 {
     return WiFiDrv_GetHostByName(aHostname, aResult);
@@ -519,6 +298,4 @@ int32_t IPToNetAddr(uint8_t * IPStr, uint8_t * NetAddr)
 
     return (0);
 }
-
-/*--------------------------- FILE END --------------------------------------*/
 

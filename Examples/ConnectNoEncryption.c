@@ -9,19 +9,17 @@
 
 #define TRCENA          0x01000000
 
-int fputc(int ch, FILE *f)
-{
+int fputc(int ch, FILE *f) {
 
-    if (DEMCR & TRCENA)
-    {
+  if (DEMCR & TRCENA) {
 
-        while (ITM_Port32(0) == 0);
+    while (ITM_Port32(0) == 0);
 
-        ITM_Port8(0) = ch;
+    ITM_Port8(0) = ch;
 
-    }
+  }
 
-    return(ch);
+  return(ch);
 }
 
 static void delay(volatile uint32_t tick)
@@ -30,7 +28,7 @@ static void delay(volatile uint32_t tick)
 }
 
 //Open Network SSID
-uint8_t ssid[] = "yourNetwork";
+uint8_t ssid[] = "your open network SSID";
 
 int main(void)
 {
@@ -38,7 +36,7 @@ int main(void)
 
     WiFi_Init();
 
-    // attempt to connect to OPEN Wifi network:
+    // attempt to connect to Wifi network:
     while ( status != WL_CONNECTED)
     {
         status = WiFi_Begin(OPEN, ssid);
