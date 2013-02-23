@@ -26,7 +26,7 @@ uint8_t  SpiDrv_Transfer(uint8_t data);
 void     SpiDrv_WaitForSlaveReady(void);
 int32_t  SpiDrv_WaitChar(uint8_t waitChar);
 int32_t  SpiDrv_ReadAndCheckChar(uint8_t checkChar, uint8_t* readChar);
-char     SpiDrv_ReadChar(void);
+uint8_t  SpiDrv_ReadChar(void);
 void     SpiDrv_GetParam(uint8_t* param);
 int32_t  SpiDrv_WaitResponseCmd(uint8_t cmd, uint8_t numParam, uint8_t* param, uint8_t* param_len);
 int32_t  SpiDrv_WaitResponseData16(uint8_t cmd, uint8_t* param, uint16_t* param_len);
