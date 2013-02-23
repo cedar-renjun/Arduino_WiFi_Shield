@@ -10,7 +10,7 @@
 //uint8_t getFirstSocket();
 
 static int32_t _ConnectViaHost(uint8_t* host, uint16_t port);
-static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port);
+//static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port);
 
 static void delay(volatile uint32_t tick)
 {
@@ -60,9 +60,10 @@ static int32_t _ConnectViaHost(uint8_t* host, uint16_t port)
     return (0);
 }
 
-static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port) 
+//static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port) 
+int32_t _ConnectViaIP(uint8_t* ip, uint16_t port) 
 {
-    int32_t cnt = 50;
+    int32_t cnt = 5000;
 
     //_sock = WiFi_SocketAvilGet();
     if (_sock != NO_SOCKET_AVAIL)
@@ -77,7 +78,7 @@ static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port)
                 break;
             }
 
-            delay(1000);
+            delay(2000);
         }
 
         if (!WiFiClient_Connected())

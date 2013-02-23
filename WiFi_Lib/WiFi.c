@@ -6,12 +6,12 @@
 //int16_t   _state[MAX_SOCK_NUM];
 //uint16_t  _server_port[MAX_SOCK_NUM];
 
-int16_t   _state = 0;
+//int16_t   _state = 0;
 uint8_t   _sock = 0;
 
 //TODO
 static int _WiFiBeginOpen(uint8_t* ssid);
-static int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx,uint8_t* key);
+int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx,uint8_t* key);
 static int _WiFiBeginWpa(uint8_t* ssid, uint8_t* passphrase);
 
 static void delay(volatile uint32_t tick)
@@ -126,7 +126,7 @@ static int _WiFiBeginOpen(uint8_t* ssid)
    return (status);
 }
 
-static int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx, uint8_t* key)
+int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx, uint8_t* key)
 {
     uint8_t status   = WL_IDLE_STATUS;
     uint8_t attempts = WL_MAX_ATTEMPT_CONNECTION;

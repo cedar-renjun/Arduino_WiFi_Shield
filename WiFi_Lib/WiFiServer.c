@@ -6,6 +6,7 @@
 
 static uint16_t _port = 0;
 
+
 void WiFiServer_Init(uint16_t port)
 {
     WiFiClient_Init();
@@ -15,18 +16,21 @@ void WiFiServer_Init(uint16_t port)
 
 uint8_t WiFiServer_Available(void)
 {
+    static int Cnt = 0;
+
     //server not in listen state, restart it
-    if (WiFiServer_Status() == 0)
+    if ((WiFiServer_Status() == 0) && (Cnt++ > 50))
     {
+        Cnt = 0;
         ServerDrv_StartServer(_port, _sock);
     }
 
     if (WiFiClient_Status() == ESTABLISHED)
     {                
-        return 0; //OK
+        return 1; //OK
     }
 
-    return (255); //ERROR
+    return (0); //ERROR
 }
 
 uint8_t WiFiServer_Status()

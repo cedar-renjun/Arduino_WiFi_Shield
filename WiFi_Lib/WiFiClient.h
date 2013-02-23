@@ -19,4 +19,7 @@ void     WiFiClient_Stop(void);
 uint8_t  WiFiClient_Connected(void);
 uint8_t  WiFiClient_Status(void);
 
+
+int32_t _ConnectViaIP(uint8_t* ip, uint16_t port);
+
 #endif //_WIFICLIENT_H_

@@ -974,9 +974,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\Examples\WifiPachubeClient.c</name>
-      <excluded>
-        <configuration>Debug</configuration>
-      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\Examples\WifiPachubeClientString.c</name>
@@ -986,12 +983,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\Examples\WifiWebClient.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Examples\WifiWebClientRepeating.c</name>
       <excluded>
         <configuration>Debug</configuration>
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Examples\WifiWebClientRepeating.c</name>
+      <name>$PROJ_DIR$\..\..\Examples\WifiWebServer.c</name>
       <excluded>
         <configuration>Debug</configuration>
       </excluded>
@@ -1213,9 +1213,9 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\WiFi_Lib\WiFiClient.h</name>
-        <excluded>
-          <configuration>Debug</configuration>
-        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\..\WiFi_Lib\WiFiServer.h</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\WiFi_Lib\wl_definitions.h</name>
@@ -1240,9 +1240,9 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\WiFi_Lib\WiFiClient.c</name>
-        <excluded>
-          <configuration>Debug</configuration>
-        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\..\WiFi_Lib\WiFiServer.c</name>
       </file>
     </group>
   </group>

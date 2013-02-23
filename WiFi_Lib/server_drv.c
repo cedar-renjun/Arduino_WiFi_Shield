@@ -301,7 +301,7 @@ int32_t ServerDrv_CheckDataSent(uint8_t sock)
         else
         {
             ++timeout;
-            delay(100);
+            delay(300);
         }
 
     }while((_data==0)&&(timeout<TIMEOUT_DATA_SENT));

@@ -14,7 +14,7 @@
 //extern int16_t   _state[MAX_SOCK_NUM];
 //extern uint16_t  _server_port[MAX_SOCK_NUM];
 
-extern int16_t   _state;
+//extern int16_t   _state;
 extern uint8_t   _sock;
 
 // Network encrytion type

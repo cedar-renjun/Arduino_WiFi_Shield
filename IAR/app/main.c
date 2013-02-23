@@ -21,7 +21,11 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
+#include "server_drv.h"
+#include "spi_drv.h"
 #include "WiFi.h"
+#include "WiFiClient.h"
+#include "WiFiServer.h"
 
 uint8_t Buf[5];
 uint8_t Ssid[20];
@@ -34,8 +38,6 @@ int8_t NetWorkType = 0;
 int Ch = 0;
 int i = 0;
 int status = WL_IDLE_STATUS;  
-
-
 
 
 /*
@@ -65,7 +67,9 @@ static void delay(volatile uint32_t tick)
 {
     while(tick--);
 }
-
+extern void WiFiClientDemo(void);
+//extern void WebServer(uint16_t port);
+extern void PachubeClient(void);
 
 int fgetc(FILE *f)
 {
@@ -139,30 +143,26 @@ int JoinNetWork(int8_t Type)
     switch (Type)
     {
     case ENC_TYPE_WEP:    //WEP
-        return WiFi_Begin(WEP, WiFi_SSIDGet(ChoiceID), KeyIndex, Key);
-        break;
+        return WiFi_Begin(WEP, WiFi_SSIDGet(ChoiceID), KeyIndex, Key);        
     case ENC_TYPE_TKIP:   //WPA
     case ENC_TYPE_CCMP:   //WPA2
-        return WiFi_Begin(WPA, WiFi_SSIDGet(ChoiceID), Key);
-        break;
+        return WiFi_Begin(WPA, WiFi_SSIDGet(ChoiceID), Key);        
+    case ENC_TYPE_AUTO:   //AUTO
     case ENC_TYPE_NONE:   //OPEN
-        return WiFi_Begin(OPEN, WiFi_SSIDGet(ChoiceID));
-        break;
-    case ENC_TYPE_AUTO:   //AUTO        
-        break;
+        return WiFi_Begin(OPEN, WiFi_SSIDGet(ChoiceID));        
     }
+    return(!WL_CONNECTED);
 }
+
+int Cnt = 0;
 
 
 int main(void)
 {
 
-  
-
     WiFi_Init();
     ComInit();
-
-
+    
     printf( "\r\n"
             "======================================================================\r\n"
             "            Welcome to Freedom Board WiFi Module Demo                 \r\n"
@@ -288,7 +288,9 @@ RESCAN:
     
     while(1)
     {
-        status = JoinNetWork(NetWorkType);
+        //status = JoinNetWork(NetWorkType);
+        extern int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx, uint8_t* key);
+        status = _WiFiBeginWep("Embest", 0, "0123456789");
         if(status == WL_CONNECTED)
         {
             printf("OK, Connect to Network!!!\r\n");
@@ -309,6 +311,34 @@ RESCAN:
           
     WiFi_LocalIPGet(Buf);
     printf("Freedom WiFi Server IP is: %d:%d:%d:%d\r\n", Buf[0],Buf[1],Buf[2],Buf[3]);
+    while(1)
+    {
+        PachubeClient();
+    }
+    
+    //WiFiClientDemo();
+    //WebServer((uint16_t)8080);
+    /*
+    while(1)
+    {
+        if(Cnt++ == 100)
+        {
+            Cnt = 0;
+            ServerDrv_StartServer(80, 0);
+        }
+        
+        if(WiFiServer_Status())
+        {
+            printf("OK\r\n");
+            while(1);
+        }
+        else
+        {
+            printf("ERROR\r\n");
+        }
+         delay(0xFFFF);
+    }*/  
+            
     while(1);              
 
 }
