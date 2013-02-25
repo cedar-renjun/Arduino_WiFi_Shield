@@ -102,7 +102,7 @@ void PachubeClient(void)
   // read the analog sensor:
   static int sensorReading = 0;
   
-  if(sensorReading++ == 20)
+  if(sensorReading++ >= 20)
   {
       sensorReading = 0;
   }
@@ -134,7 +134,7 @@ void PachubeClient(void)
   // store the state of the connection for next time through
   // the loop:
   lastConnected = WiFiClient_Connected();
-  delay(0xFFFFF);
+  delay(0xFFFF);
 }
 
 

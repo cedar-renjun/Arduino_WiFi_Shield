@@ -117,7 +117,7 @@
         </option>
         <option>
           <name>FlashLoadersV3</name>
-          <state>$TOOLKIT_DIR$\config\flashloader\</state>
+          <state>$TOOLKIT_DIR$\config\flashloader\Freescale\FlashKL25Dxxx16K.board</state>
         </option>
         <option>
           <name>OCImagesSuppressCheck1</name>
@@ -145,7 +145,7 @@
         </option>
         <option>
           <name>OverrideDefFlashBoard</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>OCImagesOffset1</name>
@@ -825,7 +825,7 @@
         <option>
           <name>CCPEMicroInterfaceList</name>
           <version>0</version>
-          <state>0</state>
+          <state>5</state>
         </option>
         <option>
           <name>CCPEMicroResetDelay</name>
@@ -833,7 +833,7 @@
         </option>
         <option>
           <name>CCPEMicroJtagSpeed</name>
-          <state>5000</state>
+          <state>500</state>
         </option>
         <option>
           <name>CCJPEMicroShowSettings</name>

@@ -1,8 +1,25 @@
 #ifndef _SPI_DRV_H_
 #define _SPI_DRV_H_
 
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdarg.h>
+#include "xhw_types.h"
+#include "xhw_ints.h"
+#include "xhw_nvic.h"
+#include "xhw_memmap.h"
+#include "xdebug.h"
+#include "xcore.h"
+#include "xsysctl.h"
+#include "xhw_sysctl.h"
+#include "xhw_gpio.h"
+#include "xgpio.h"
+#include "xhw_uart.h"
+#include "xuart.h"
+#include "xhw_spi.h"
+#include "xspi.h"
+
 #include "wifi_spi.h"
 
 #define NO_LAST_PARAM                  0

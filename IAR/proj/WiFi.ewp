@@ -103,7 +103,7 @@
         </option>
         <option>
           <name>GenLowLevelInterface</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>GEndianModeBE</name>
@@ -147,7 +147,7 @@
         </option>
         <option>
           <name>OGUseCmsis</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>OGUseCmsisDspLib</name>
@@ -164,8 +164,7 @@
         <debug>1</debug>
         <option>
           <name>CCDefines</name>
-          <state>STM32F10X_HD</state>
-          <state>USE_STDPERIPH_DRIVER</state>
+          <state>ewarm</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -296,7 +295,7 @@
           <name>CCIncludePath2</name>
           <state>$PROJ_DIR$\..\app</state>
           <state>$PROJ_DIR$\..\..\Examples</state>
-          <state>$PROJ_DIR$\..\..\Port\ST StdLib\STM32F10x_StdPeriph_Driver\inc</state>
+          <state>$PROJ_DIR$\..\..\Port\CoX Freescale\CoX_Peripheral_KLx\libcox</state>
           <state>$PROJ_DIR$\..\..\WiFi_Lib</state>
         </option>
         <option>
@@ -576,7 +575,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state></state>
+          <state>WiFi.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -690,11 +689,11 @@
         </option>
         <option>
           <name>IlinkIcfOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>$TOOLKIT_DIR$\config\linker\ST\stm32f103xE.icf</state>
+          <state>F:\Arduino_WiFi_Driver\IAR\proj\16KB_RAM.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>

@@ -23,6 +23,9 @@ extern uint8_t   _sock;
 #define WEP                     2
 #define WPA                     3
 
+
+extern void SystemInit(void);
+
 void     WiFi_Init(void);
 uint8_t* WiFi_FwVerGet(void);
 int32_t  WiFi_Begin(uint8_t NetType, uint8_t* ssid, ...);

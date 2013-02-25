@@ -19,10 +19,26 @@
  ******************************************************************************
  */ 
 
-/* Includes ------------------------------------------------------------------*/
-//#include "stm32f10x.h"
-#include "server_drv.h"
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdarg.h>
+#include "xhw_types.h"
+#include "xhw_ints.h"
+#include "xhw_nvic.h"
+#include "xhw_memmap.h"
+#include "xdebug.h"
+#include "xcore.h"
+#include "xsysctl.h"
+#include "xhw_sysctl.h"
+#include "xhw_gpio.h"
+#include "xgpio.h"
+#include "xhw_uart.h"
+#include "xuart.h"
+     
+     
 #include "spi_drv.h"
+#include "server_drv.h"
 #include "WiFi.h"
 #include "WiFiClient.h"
 #include "WiFiServer.h"
@@ -39,30 +55,6 @@ int Ch = 0;
 int i = 0;
 int status = WL_IDLE_STATUS;  
 
-
-/*
-Sorry, we can not find network here!
-
-Now Input Target Network ID
-Tips:
-#1 press <F5> to refresh network
-#2 press <ESC> to exit demo
-
-Your have selected network XXX, correct?
-press: 
-      <Enter> to continue
-      <Esc>   to reselect
-
-Please input network's Key
-
-Wait, Connecting...
-
-Congratulation! Connect to network XXX successfully!
-Now, you can open your web browser and input WiFi Server address
-192.168.2.1:88888 to control your Freedom board LED.
-*/
-
-
 static void delay(volatile uint32_t tick)
 {
     while(tick--);
@@ -73,17 +65,43 @@ extern void PachubeClient(void);
 
 int fgetc(FILE *f)
 {
-    return 0;
+    return UARTCharGet(UART1_BASE);    
 }
 
 int fputc(int ch, FILE *f) 
 {
-    return 0;
+    UARTCharPut(UART1_BASE, ch);
+    return 1;
 }
 
 void ComInit(void)
 {
+    //
+    // Enable GPIO/UART Clock
+    //
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_UART1);
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOC);
 
+    //
+    // Remap UART pin to GPIO Port UART1_RX --> PC3 UART1_TX --> PC4
+    xSPinTypeUART(UART1RX, PC3);
+    xSPinTypeUART(UART1TX, PC4);
+
+    //
+    // Disable UART Receive/Transmit
+    //
+    UARTDisable(UART1_BASE, UART_TX | UART_RX);
+
+    //
+    // Configure UART Baud 9600 8-N-1
+    //
+    UARTConfigSet(UART1_BASE, 9600, UART_CONFIG_WLEN_8 | UART_CONFIG_PAR_NONE |
+            UART_CONFIG_STOP_1);
+
+    //
+    // Enable UART Receive/Transmit
+    //
+    UARTEnable(UART1_BASE, UART_TX | UART_RX);
 }
 
 void ListNetworks(int num)
@@ -138,7 +156,8 @@ int main(void)
         //Stop
         while(1);
     } 
-
+    while(1);
+#if 0
     printf(" Congratulation! We detect your WiFi module!\r\n"
             " Now, Please press <Enter> to continue demo.\r\n"
           );
@@ -300,5 +319,7 @@ RESCAN:
     }*/  
             
     while(1);              
+#endif
 
 }
+
