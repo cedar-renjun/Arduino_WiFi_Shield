@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1975828720</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\startup\src\startup_ewarm.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_ints.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xspi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xspi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</file>
+      <file>$PROJ_DIR$\..\src\spitest00.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\testport.c</file>
+      <file>$PROJ_DIR$\..\src\spitest01.c</file>
+      <file>$PROJ_DIR$\..\src\spitest02.c</file>
+      <file>$PROJ_DIR$\..\src\spitest03.c</file>
+      <file>$PROJ_DIR$\..\src\spitest04.c</file>
+      <file>$PROJ_DIR$\..\src\testcase.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest03.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\testcase.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest04.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\test.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\src\testcase.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest00.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\template.out</file>
+      <file>$PROJ_DIR$\16KB_RAM.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest00.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest03.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\testcase.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\template.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest01.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest02.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest02.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest01.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spitest04.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\server_drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiServer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiClient.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wifi_drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiClient.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiServer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\server_drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\spi_drv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\spi_drv.h</file>
+      <file>C:\Users\renjun\Desktop\Cox\CoX_Peripheral\CoX_Peripheral_KLx\testframe\main.c</file>
+      <file>C:\Users\renjun\Desktop\Cox\CoX_Peripheral\CoX_Peripheral_KLx\spi\test\suite1\src\spitest03.c</file>
+      <file>C:\Users\renjun\Desktop\Cox\CoX_Peripheral\CoX_Peripheral_KLx\libcox\xspi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiServer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiServer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wl_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\socket.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiClient.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiClient.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\wifi_drv.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wifi_drv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\server_drv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wifi_drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wl_definitions.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\server_drv.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wifi_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiPachubeClient.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\Examples\WifiPachubeClient.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiPachubeClient.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\WiFiClient.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\template.srec</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\wifi_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\spi_drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\wl_definitions.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\WiFi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\WiFi_Lib\wifi_drv.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\startup\src\startup_ewarm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 6 7 8 3 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 6 7 8 3 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 6 7 8 10 5 3 15 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 6 7 8 10 5 3 15 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xspi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 6 7 9 3 1 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 6 7 9 3 1 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 6 7 8 10 12 3 15 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 6 7 8 10 12 3 15 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 6 7 8 10 5 35 3 15 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 6 7 8 10 5 35 3 15 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spitest00.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 128 127 129 131 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 128 127 129 131 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\testport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spitest01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spitest02.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spitest03.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spitest04.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 3 1 15 10 5 2 12 14 13 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 3 1 15 10 5 2 12 14 13 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\testcase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 40 51 72 68 32 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\template.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 58 109 87 86 122 81 120 110 103 63 70 47 114 64 55 38 37 66 42 69 82 75 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\spi_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 40 51 72 68 95 36 65 31 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiServer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 51 72 68 95 36 65 31 49 83 97 40 121 119 113 33 67 94 4 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 118 93 111 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 51 72 68 95 36 65 31 49 83 97 40 121 119 113 33 67 94 4 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 118 93 111 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\socket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 51 40 72 68 95 36 65 31 104 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 51 40 72 68 95 36 65 31 104 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFiClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 107 93 51 40 72 68 95 36 65 31 113 33 49 67 94 46 83 4 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 118 111 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 107 93 51 40 72 68 95 36 65 31 113 33 49 67 94 46 83 4 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 118 111 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\wifi_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 51 72 68 95 36 65 31 49 67 46 83 40 99 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119 118 93 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 51 72 68 95 36 65 31 49 67 46 83 40 99 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119 118 93 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\server_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 40 51 72 68 95 36 65 31 121 119 99 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 40 51 72 68 95 36 65 31 121 119 99 33 49 67 46 83 4 11 6 8 7 3 1 15 10 5 2 12 14 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\WiFi_Lib\WiFi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119 118 93 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 99 11 6 8 7 3 1 15 10 5 2 12 14 9 13 121 119 118 93 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Arduino_WiFi_Driver\Examples\WifiPachubeClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 128 127 129 131 93 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130 33 51 72 68 95 36 65 31 49 67 94 46 83 4 40 128 127 129 131 93 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\src\spitest00.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\src\spitest01.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\src\spitest02.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\src\spitest03.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\src\spitest04.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

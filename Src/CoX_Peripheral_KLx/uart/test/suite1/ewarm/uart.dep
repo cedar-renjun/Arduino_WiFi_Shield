@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3993218799</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\startup\startup_ewarm.s</file>
+      <file>$PROJ_DIR$\..\src\testcase.c</file>
+      <file>$PROJ_DIR$\..\src\xuarttest03.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\testport.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.o</file>
+      <file>$PROJ_DIR$\Debug\List\testport.s</file>
+      <file>$PROJ_DIR$\Debug\List\testport.lst</file>
+      <file>$PROJ_DIR$\Debug\List\testcase.s</file>
+      <file>$PROJ_DIR$\Debug\List\testcase.lst</file>
+      <file>$PROJ_DIR$\Debug\List\test.s</file>
+      <file>$PROJ_DIR$\Debug\List\test.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\src\testcase.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\List\xcore.lst</file>
+      <file>$PROJ_DIR$\Debug\List\xdebug.s</file>
+      <file>$PROJ_DIR$\Debug\List\xgpio.s</file>
+      <file>$PROJ_DIR$\Debug\List\xgpio.lst</file>
+      <file>$PROJ_DIR$\Debug\List\xdebug.lst</file>
+      <file>$PROJ_DIR$\Debug\List\xsysctl.s</file>
+      <file>$PROJ_DIR$\Debug\List\xsysctl.lst</file>
+      <file>$PROJ_DIR$\Debug\List\xuart.s</file>
+      <file>$PROJ_DIR$\Debug\List\xuart.lst</file>
+      <file>$PROJ_DIR$\Debug\List\xuarttest03.s</file>
+      <file>$PROJ_DIR$\Debug\List\xuarttest03.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\testcase.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuarttest03.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\testcase.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuarttest03.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\uart.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_ints.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\testframe\test.h</file>
+      <file>$PROJ_DIR$\Debug\List\xcore.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.h</file>
+      <file>$PROJ_DIR$\Debug\List\main.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 27 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 62 60 59 64 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 62 60 59 64 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 35 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 62 60 59 58 79 64 69 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 62 60 59 58 79 64 69 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 31 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 30 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 62 60 59 58 66 64 69 65 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 62 60 59 58 66 64 69 65 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 33 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 62 60 59 58 66 25 64 69 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 62 60 59 58 66 25 64 69 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\startup\startup_ewarm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\testcase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 18 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\xuarttest03.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 37 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 57 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 20 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\testframe\testport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 16 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 82 68 76 75 74 73 72 71 67 70 23 21 24 26 63 62 59 60 64 65 69 58 66 61 79 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\uart.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 87 41 44 42 39 43 11 13 12 14 38 40 84 86 85 83</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

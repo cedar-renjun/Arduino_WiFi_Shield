@@ -1,0 +1,410 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTH_MODE_AUTO	wl_types.h	/^        AUTH_MODE_AUTO,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_INVALID	wl_types.h	/^        AUTH_MODE_INVALID,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_OPEN_SYSTEM	wl_types.h	/^        AUTH_MODE_OPEN_SYSTEM,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_SHARED_KEY	wl_types.h	/^        AUTH_MODE_SHARED_KEY,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_WPA	wl_types.h	/^        AUTH_MODE_WPA,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_WPA2	wl_types.h	/^        AUTH_MODE_WPA2,$/;"	e	enum:wl_auth_mode
+AUTH_MODE_WPA2_PSK	wl_types.h	/^        AUTH_MODE_WPA2_PSK$/;"	e	enum:wl_auth_mode
+AUTH_MODE_WPA_PSK	wl_types.h	/^        AUTH_MODE_WPA_PSK,$/;"	e	enum:wl_auth_mode
+AVAIL_DATA_TCP_CMD	wifi_spi.h	/^    AVAIL_DATA_TCP_CMD       = 0x2B,$/;"	e	enum:__anon1
+CLOSED	wifi_spi.h	/^  CLOSED      = 0,$/;"	e	enum:wl_tcp_state
+CLOSE_WAIT	wifi_spi.h	/^  CLOSE_WAIT  = 7,$/;"	e	enum:wl_tcp_state
+CLOSING	wifi_spi.h	/^  CLOSING     = 8,$/;"	e	enum:wl_tcp_state
+CMD_FLAG	wifi_spi.h	6;"	d
+DATA_FLAG	wifi_spi.h	8;"	d
+DATA_SENT_TCP_CMD	wifi_spi.h	/^    DATA_SENT_TCP_CMD        = 0x2A,$/;"	e	enum:__anon1
+DELAY_TRANSFER	spi_drv.c	46;"	d	file:
+DISCONNECT_CMD	wifi_spi.h	/^    DISCONNECT_CMD           = 0x30,$/;"	e	enum:__anon1
+DUMMY_DATA	spi_drv.h	28;"	d
+DelayMs	delay.h	/^static void DelayMs(volatile int32_t ms)$/;"	f	signature:(volatile int32_t ms)
+DelayMs	wl_definitions.h	/^static void DelayMs(uint32_t ms)$/;"	f	signature:(uint32_t ms)
+DelayUs	wl_definitions.h	/^static void DelayUs(uint32_t us)$/;"	f	signature:(uint32_t us)
+ENC_TYPE_AUTO	wl_definitions.h	/^        ENC_TYPE_AUTO = 8$/;"	e	enum:wl_enc_type
+ENC_TYPE_CCMP	wl_definitions.h	/^        ENC_TYPE_CCMP = 4,$/;"	e	enum:wl_enc_type
+ENC_TYPE_NONE	wl_definitions.h	/^        ENC_TYPE_NONE = 7,$/;"	e	enum:wl_enc_type
+ENC_TYPE_TKIP	wl_definitions.h	/^        ENC_TYPE_TKIP = 2,$/;"	e	enum:wl_enc_type
+ENC_TYPE_WEP	wl_definitions.h	/^        ENC_TYPE_WEP  = 5,$/;"	e	enum:wl_enc_type
+END_CMD	wifi_spi.h	19;"	d
+ERR_CMD	wifi_spi.h	20;"	d
+ESTABLISHED	wifi_spi.h	/^  ESTABLISHED = 4,$/;"	e	enum:wl_tcp_state
+FIN_WAIT_1	wifi_spi.h	/^  FIN_WAIT_1  = 5,$/;"	e	enum:wl_tcp_state
+FIN_WAIT_2	wifi_spi.h	/^  FIN_WAIT_2  = 6,$/;"	e	enum:wl_tcp_state
+F_CLK	delay.h	4;"	d
+F_CLK	wl_definitions.h	16;"	d
+GET_CLIENT_STATE_TCP_CMD	wifi_spi.h	/^    GET_CLIENT_STATE_TCP_CMD = 0x2F,$/;"	e	enum:__anon1
+GET_CONN_STATUS_CMD	wifi_spi.h	/^    GET_CONN_STATUS_CMD      = 0x20,$/;"	e	enum:__anon1
+GET_CURR_BSSID_CMD	wifi_spi.h	/^    GET_CURR_BSSID_CMD       = 0x24,$/;"	e	enum:__anon1
+GET_CURR_ENCT_CMD	wifi_spi.h	/^    GET_CURR_ENCT_CMD        = 0x26,$/;"	e	enum:__anon1
+GET_CURR_RSSI_CMD	wifi_spi.h	/^    GET_CURR_RSSI_CMD        = 0x25,$/;"	e	enum:__anon1
+GET_CURR_SSID_CMD	wifi_spi.h	/^    GET_CURR_SSID_CMD        = 0x23,$/;"	e	enum:__anon1
+GET_DATABUF_TCP_CMD	wifi_spi.h	/^    GET_DATABUF_TCP_CMD     = 0x45,$/;"	e	enum:__anon1
+GET_DATA_TCP_CMD	wifi_spi.h	/^    GET_DATA_TCP_CMD         = 0x2C,$/;"	e	enum:__anon1
+GET_FW_VERSION_CMD	wifi_spi.h	/^    GET_FW_VERSION_CMD       = 0x37,$/;"	e	enum:__anon1
+GET_HOST_BY_NAME_CMD	wifi_spi.h	/^    GET_HOST_BY_NAME_CMD     = 0x35,$/;"	e	enum:__anon1
+GET_IDX_ENCT_CMD	wifi_spi.h	/^    GET_IDX_ENCT_CMD         = 0x33,$/;"	e	enum:__anon1
+GET_IDX_RSSI_CMD	wifi_spi.h	/^    GET_IDX_RSSI_CMD         = 0x32,$/;"	e	enum:__anon1
+GET_IDX_SSID_CMD	wifi_spi.h	/^    GET_IDX_SSID_CMD         = 0x31,$/;"	e	enum:__anon1
+GET_IPADDR_CMD	wifi_spi.h	/^    GET_IPADDR_CMD           = 0x21,$/;"	e	enum:__anon1
+GET_MACADDR_CMD	wifi_spi.h	/^    GET_MACADDR_CMD          = 0x22,$/;"	e	enum:__anon1
+GET_STATE_TCP_CMD	wifi_spi.h	/^    GET_STATE_TCP_CMD        = 0x29,$/;"	e	enum:__anon1
+KEY_IDX_LEN	wifi_drv.h	8;"	d
+LAST_ACK	wifi_spi.h	/^  LAST_ACK    = 9,$/;"	e	enum:wl_tcp_state
+LAST_PARAM	spi_drv.h	26;"	d
+LISTEN	wifi_spi.h	/^  LISTEN      = 1,$/;"	e	enum:wl_tcp_state
+MAX_PARAMS	wifi_spi.h	85;"	d
+MAX_PARAM_NUMS	wifi_spi.h	/^    MAX_PARAM_NUMS$/;"	e	enum:numParams
+MAX_SOCK_NUM	wl_definitions.h	48;"	d
+NO_LAST_PARAM	spi_drv.h	25;"	d
+NO_SOCKET_AVAIL	wifi_spi.h	16;"	d
+OPEN	WiFi.h	22;"	d
+PARAM_LEN_SIZE	wifi_spi.h	86;"	d
+PARAM_NUMS_0	wifi_spi.h	/^    PARAM_NUMS_0,$/;"	e	enum:numParams
+PARAM_NUMS_1	wifi_spi.h	/^    PARAM_NUMS_1,$/;"	e	enum:numParams
+PARAM_NUMS_2	wifi_spi.h	/^    PARAM_NUMS_2,$/;"	e	enum:numParams
+PARAM_NUMS_3	wifi_spi.h	/^    PARAM_NUMS_3,$/;"	e	enum:numParams
+PARAM_NUMS_4	wifi_spi.h	/^    PARAM_NUMS_4,$/;"	e	enum:numParams
+PARAM_NUMS_5	wifi_spi.h	/^    PARAM_NUMS_5,$/;"	e	enum:numParams
+RAW_SOCKET	socket.h	13;"	d
+REPLY_FLAG	wifi_spi.h	7;"	d
+REQ_HOST_BY_NAME_CMD	wifi_spi.h	/^    REQ_HOST_BY_NAME_CMD     = 0x34,$/;"	e	enum:__anon1
+SCAN_NETWORKS	wifi_spi.h	/^    SCAN_NETWORKS            = 0x27,$/;"	e	enum:__anon1
+SEND_DATA_TCP_CMD	wifi_spi.h	/^    SEND_DATA_TCP_CMD       = 0x44,$/;"	e	enum:__anon1
+SERVER_DRV_H	server_drv.h	12;"	d
+SET_KEY_CMD	wifi_spi.h	/^    SET_KEY_CMD              = 0x12,$/;"	e	enum:__anon1
+SET_NET_CMD	wifi_spi.h	/^    SET_NET_CMD              = 0x10,$/;"	e	enum:__anon1
+SET_PASSPHRASE_CMD	wifi_spi.h	/^    SET_PASSPHRASE_CMD       = 0x11,$/;"	e	enum:__anon1
+SOCKET	socket.h	/^typedef uint16_t 			SOCKET;$/;"	t
+SOCK_NOT_AVAIL	socket.h	15;"	d
+START_CLIENT_TCP_CMD	wifi_spi.h	/^    START_CLIENT_TCP_CMD     = 0x2D,$/;"	e	enum:__anon1
+START_CMD	wifi_spi.h	18;"	d
+START_SCAN_NETWORKS	wifi_spi.h	/^    START_SCAN_NETWORKS      = 0x36,$/;"	e	enum:__anon1
+START_SERVER_TCP_CMD	wifi_spi.h	/^    START_SERVER_TCP_CMD     = 0x28,$/;"	e	enum:__anon1
+STOP_CLIENT_TCP_CMD	wifi_spi.h	/^    STOP_CLIENT_TCP_CMD      = 0x2E,$/;"	e	enum:__anon1
+SYN_RCVD	wifi_spi.h	/^  SYN_RCVD    = 3,$/;"	e	enum:wl_tcp_state
+SYN_SENT	wifi_spi.h	/^  SYN_SENT    = 2,$/;"	e	enum:wl_tcp_state
+ServerDrv_AvailData	server_drv.c	/^int32_t ServerDrv_AvailData(uint8_t sock)$/;"	f	signature:(uint8_t sock)
+ServerDrv_AvailData	server_drv.h	/^int32_t ServerDrv_AvailData(uint8_t sock);$/;"	p	signature:(uint8_t sock)
+ServerDrv_CheckDataSent	server_drv.c	/^int32_t ServerDrv_CheckDataSent(uint8_t sock)$/;"	f	signature:(uint8_t sock)
+ServerDrv_CheckDataSent	server_drv.h	/^int32_t ServerDrv_CheckDataSent(uint8_t sock);$/;"	p	signature:(uint8_t sock)
+ServerDrv_GetClientState	server_drv.c	/^uint8_t ServerDrv_GetClientState(uint8_t sock)$/;"	f	signature:(uint8_t sock)
+ServerDrv_GetClientState	server_drv.h	/^uint8_t ServerDrv_GetClientState(uint8_t sock);$/;"	p	signature:(uint8_t sock)
+ServerDrv_GetData	server_drv.c	/^int32_t ServerDrv_GetData(uint8_t sock, uint8_t *data, uint8_t peek)$/;"	f	signature:(uint8_t sock, uint8_t *data, uint8_t peek)
+ServerDrv_GetData	server_drv.h	/^int32_t ServerDrv_GetData(uint8_t sock, uint8_t *data, uint8_t peek);$/;"	p	signature:(uint8_t sock, uint8_t *data, uint8_t peek)
+ServerDrv_GetDataBuf	server_drv.c	/^int32_t ServerDrv_GetDataBuf(uint8_t sock, uint8_t *_data, uint16_t *_dataLen)$/;"	f	signature:(uint8_t sock, uint8_t *_data, uint16_t *_dataLen)
+ServerDrv_GetDataBuf	server_drv.h	/^int32_t ServerDrv_GetDataBuf(uint8_t sock, uint8_t *_data, uint16_t *_dataLen);$/;"	p	signature:(uint8_t sock, uint8_t *_data, uint16_t *_dataLen)
+ServerDrv_GetServerState	server_drv.c	/^uint8_t ServerDrv_GetServerState(uint8_t sock)$/;"	f	signature:(uint8_t sock)
+ServerDrv_GetServerState	server_drv.h	/^uint8_t ServerDrv_GetServerState(uint8_t sock);$/;"	p	signature:(uint8_t sock)
+ServerDrv_SendData	server_drv.c	/^int32_t ServerDrv_SendData(uint8_t sock, uint8_t *data, uint16_t len)$/;"	f	signature:(uint8_t sock, uint8_t *data, uint16_t len)
+ServerDrv_SendData	server_drv.h	/^int32_t ServerDrv_SendData(uint8_t sock, uint8_t *data, uint16_t len);$/;"	p	signature:(uint8_t sock, uint8_t *data, uint16_t len)
+ServerDrv_StartClient	server_drv.c	/^void ServerDrv_StartClient(uint32_t ipAddress, uint16_t port, uint8_t sock)$/;"	f	signature:(uint32_t ipAddress, uint16_t port, uint8_t sock)
+ServerDrv_StartClient	server_drv.h	/^void    ServerDrv_StartClient(uint32_t ipAddress, uint16_t port, uint8_t sock);$/;"	p	signature:(uint32_t ipAddress, uint16_t port, uint8_t sock)
+ServerDrv_StartServer	server_drv.c	/^void ServerDrv_StartServer(uint16_t port, uint8_t sock)$/;"	f	signature:(uint16_t port, uint8_t sock)
+ServerDrv_StartServer	server_drv.h	/^void    ServerDrv_StartServer(uint16_t port, uint8_t sock);$/;"	p	signature:(uint16_t port, uint8_t sock)
+ServerDrv_StopClient	server_drv.c	/^void ServerDrv_StopClient(uint8_t sock)$/;"	f	signature:(uint8_t sock)
+ServerDrv_StopClient	server_drv.h	/^void    ServerDrv_StopClient(uint8_t sock);$/;"	p	signature:(uint8_t sock)
+SpiDrv_GetParam	spi_drv.c	/^void SpiDrv_GetParam(uint8_t* param)$/;"	f	signature:(uint8_t* param)
+SpiDrv_GetParam	spi_drv.h	/^void     SpiDrv_GetParam(uint8_t* param);$/;"	p	signature:(uint8_t* param)
+SpiDrv_Init	spi_drv.c	/^void SpiDrv_Init(void)$/;"	f	signature:(void)
+SpiDrv_Init	spi_drv.h	/^void     SpiDrv_Init(void);$/;"	p	signature:(void)
+SpiDrv_ReadAndCheckChar	spi_drv.c	/^int32_t SpiDrv_ReadAndCheckChar(uint8_t checkChar, uint8_t* readChar)$/;"	f	signature:(uint8_t checkChar, uint8_t* readChar)
+SpiDrv_ReadAndCheckChar	spi_drv.h	/^int32_t  SpiDrv_ReadAndCheckChar(uint8_t checkChar, uint8_t* readChar);$/;"	p	signature:(uint8_t checkChar, uint8_t* readChar)
+SpiDrv_ReadChar	spi_drv.c	/^uint8_t SpiDrv_ReadChar(void)$/;"	f	signature:(void)
+SpiDrv_ReadChar	spi_drv.h	/^uint8_t  SpiDrv_ReadChar(void);$/;"	p	signature:(void)
+SpiDrv_ReadParamLen16	spi_drv.c	/^uint16_t SpiDrv_ReadParamLen16(uint16_t* param_len)$/;"	f	signature:(uint16_t* param_len)
+SpiDrv_ReadParamLen16	spi_drv.h	/^uint16_t SpiDrv_ReadParamLen16(uint16_t* param_len);$/;"	p	signature:(uint16_t* param_len)
+SpiDrv_ReadParamLen8	spi_drv.c	/^uint8_t SpiDrv_ReadParamLen8(uint8_t* param_len)$/;"	f	signature:(uint8_t* param_len)
+SpiDrv_ReadParamLen8	spi_drv.h	/^uint8_t  SpiDrv_ReadParamLen8(uint8_t* param_len);$/;"	p	signature:(uint8_t* param_len)
+SpiDrv_SendBuffer	spi_drv.c	/^void SpiDrv_SendBuffer(uint8_t* param, uint16_t param_len, uint8_t lastParam)$/;"	f	signature:(uint8_t* param, uint16_t param_len, uint8_t lastParam)
+SpiDrv_SendBuffer	spi_drv.h	/^void     SpiDrv_SendBuffer(uint8_t* param, uint16_t param_len, uint8_t lastParam);$/;"	p	signature:(uint8_t* param, uint16_t param_len, uint8_t lastParam)
+SpiDrv_SendCmd	spi_drv.c	/^void SpiDrv_SendCmd(uint8_t cmd, uint8_t numParam)$/;"	f	signature:(uint8_t cmd, uint8_t numParam)
+SpiDrv_SendCmd	spi_drv.h	/^void     SpiDrv_SendCmd(uint8_t cmd, uint8_t numParam);$/;"	p	signature:(uint8_t cmd, uint8_t numParam)
+SpiDrv_SendParam	spi_drv.c	/^void SpiDrv_SendParam(uint8_t* param, uint8_t param_len, uint8_t lastParam)$/;"	f	signature:(uint8_t* param, uint8_t param_len, uint8_t lastParam)
+SpiDrv_SendParam	spi_drv.h	/^void     SpiDrv_SendParam(uint8_t* param, uint8_t param_len, uint8_t lastParam);$/;"	p	signature:(uint8_t* param, uint8_t param_len, uint8_t lastParam)
+SpiDrv_SendParam16	spi_drv.c	/^void SpiDrv_SendParam16(uint16_t param, uint8_t lastParam)$/;"	f	signature:(uint16_t param, uint8_t lastParam)
+SpiDrv_SendParam16	spi_drv.h	/^void     SpiDrv_SendParam16(uint16_t param, uint8_t lastParam);$/;"	p	signature:(uint16_t param, uint8_t lastParam)
+SpiDrv_SendParamLen16	spi_drv.c	/^void SpiDrv_SendParamLen16(uint16_t param_len)$/;"	f	signature:(uint16_t param_len)
+SpiDrv_SendParamLen16	spi_drv.h	/^void     SpiDrv_SendParamLen16(uint16_t param_len);$/;"	p	signature:(uint16_t param_len)
+SpiDrv_SendParamLen8	spi_drv.c	/^void SpiDrv_SendParamLen8(uint8_t param_len)$/;"	f	signature:(uint8_t param_len)
+SpiDrv_SendParamLen8	spi_drv.h	/^void     SpiDrv_SendParamLen8(uint8_t param_len);$/;"	p	signature:(uint8_t param_len)
+SpiDrv_SlaveDeselect	spi_drv.c	/^void SpiDrv_SlaveDeselect(void)$/;"	f	signature:(void)
+SpiDrv_SlaveDeselect	spi_drv.h	/^void     SpiDrv_SlaveDeselect(void);$/;"	p	signature:(void)
+SpiDrv_SlaveSelect	spi_drv.c	/^void SpiDrv_SlaveSelect(void)$/;"	f	signature:(void)
+SpiDrv_SlaveSelect	spi_drv.h	/^void     SpiDrv_SlaveSelect(void);$/;"	p	signature:(void)
+SpiDrv_Stop	spi_drv.c	/^void SpiDrv_Stop(void)$/;"	f	signature:(void)
+SpiDrv_Stop	spi_drv.h	/^void     SpiDrv_Stop(void);$/;"	p	signature:(void)
+SpiDrv_Transfer	spi_drv.c	/^uint8_t SpiDrv_Transfer(uint8_t Data)$/;"	f	signature:(uint8_t Data)
+SpiDrv_Transfer	spi_drv.h	/^uint8_t  SpiDrv_Transfer(uint8_t data);$/;"	p	signature:(uint8_t data)
+SpiDrv_WaitChar	spi_drv.c	/^int32_t SpiDrv_WaitChar(uint8_t waitChar)$/;"	f	signature:(uint8_t waitChar)
+SpiDrv_WaitChar	spi_drv.h	/^int32_t  SpiDrv_WaitChar(uint8_t waitChar);$/;"	p	signature:(uint8_t waitChar)
+SpiDrv_WaitForSlaveReady	spi_drv.c	/^void SpiDrv_WaitForSlaveReady(void)$/;"	f	signature:(void)
+SpiDrv_WaitForSlaveReady	spi_drv.h	/^void     SpiDrv_WaitForSlaveReady(void);$/;"	p	signature:(void)
+SpiDrv_WaitResponse	spi_drv.c	/^int32_t SpiDrv_WaitResponse(uint8_t cmd, uint8_t* numParamRead, uint8_t** params, uint8_t maxNumParams)$/;"	f	signature:(uint8_t cmd, uint8_t* numParamRead, uint8_t** params, uint8_t maxNumParams)
+SpiDrv_WaitResponse	spi_drv.h	/^int32_t  SpiDrv_WaitResponse(uint8_t cmd, uint8_t* numParamRead, uint8_t** params, uint8_t maxNumParams);$/;"	p	signature:(uint8_t cmd, uint8_t* numParamRead, uint8_t** params, uint8_t maxNumParams)
+SpiDrv_WaitResponseCmd	spi_drv.c	/^int32_t SpiDrv_WaitResponseCmd(uint8_t cmd, uint8_t numParam, uint8_t* param, uint8_t* param_len)$/;"	f	signature:(uint8_t cmd, uint8_t numParam, uint8_t* param, uint8_t* param_len)
+SpiDrv_WaitResponseCmd	spi_drv.h	/^int32_t  SpiDrv_WaitResponseCmd(uint8_t cmd, uint8_t numParam, uint8_t* param, uint8_t* param_len);$/;"	p	signature:(uint8_t cmd, uint8_t numParam, uint8_t* param, uint8_t* param_len)
+SpiDrv_WaitResponseData16	spi_drv.c	/^int32_t SpiDrv_WaitResponseData16(uint8_t cmd, uint8_t* param, uint16_t* param_len)$/;"	f	signature:(uint8_t cmd, uint8_t* param, uint16_t* param_len)
+SpiDrv_WaitResponseData16	spi_drv.h	/^int32_t  SpiDrv_WaitResponseData16(uint8_t cmd, uint8_t* param, uint16_t* param_len);$/;"	p	signature:(uint8_t cmd, uint8_t* param, uint16_t* param_len)
+SpiDrv_WaitResponseData8	spi_drv.c	/^int32_t SpiDrv_WaitResponseData8(uint8_t cmd, uint8_t* param, uint8_t* param_len)$/;"	f	signature:(uint8_t cmd, uint8_t* param, uint8_t* param_len)
+SpiDrv_WaitResponseData8	spi_drv.h	/^int32_t  SpiDrv_WaitResponseData8(uint8_t cmd, uint8_t* param, uint8_t* param_len);$/;"	p	signature:(uint8_t cmd, uint8_t* param, uint8_t* param_len)
+SpiDrv_WaitResponseParams	spi_drv.c	/^int32_t SpiDrv_WaitResponseParams(uint8_t cmd, uint8_t numParam, tParam* params)$/;"	f	signature:(uint8_t cmd, uint8_t numParam, tParam* params)
+SpiDrv_WaitResponseParams	spi_drv.h	/^int32_t  SpiDrv_WaitResponseParams(uint8_t cmd, uint8_t numParam, tParam* params);$/;"	p	signature:(uint8_t cmd, uint8_t numParam, tParam* params)
+SystemInit	WiFi.h	/^extern void SystemInit(void);$/;"	p	signature:(void)
+TCP_SOCKET	socket.h	11;"	d
+TEST_CMD	wifi_spi.h	/^    TEST_CMD                 = 0x13,$/;"	e	enum:__anon1
+TICK_1MS	delay.h	6;"	d
+TICK_1MS	wl_definitions.h	18;"	d
+TICK_1US	wl_definitions.h	19;"	d
+TIMEOUT_CHAR	wifi_spi.h	13;"	d
+TIME_K	delay.h	5;"	d
+TIME_K	wl_definitions.h	17;"	d
+TIME_WAIT	wifi_spi.h	/^  TIME_WAIT   = 10$/;"	e	enum:wl_tcp_state
+UDP_SOCKET	socket.h	12;"	d
+WAIT_FOR_SLAVE_SELECT	spi_drv.h	30;"	d
+WEP	WiFi.h	23;"	d
+WIFI_SPI_ACK	wifi_spi.h	10;"	d
+WIFI_SPI_ERR	wifi_spi.h	11;"	d
+WIFI_SPI_H	wifi_spi.h	2;"	d
+WL_CONNECTED	wl_definitions.h	/^        WL_CONNECTED,$/;"	e	enum:__anon10
+WL_CONNECTION_LOST	wl_definitions.h	/^        WL_CONNECTION_LOST,$/;"	e	enum:__anon10
+WL_CONNECT_FAILED	wl_definitions.h	/^        WL_CONNECT_FAILED,$/;"	e	enum:__anon10
+WL_DEFINITIONS_H_	wl_definitions.h	9;"	d
+WL_DELAY_START_CONNECTION	wifi_drv.h	10;"	d
+WL_DISCONNECTED	wl_definitions.h	/^        WL_DISCONNECTED$/;"	e	enum:__anon10
+WL_FAILURE	wl_types.h	/^        WL_FAILURE = -1,$/;"	e	enum:__anon11
+WL_FW_VER_LENGTH	wifi_drv.h	12;"	d
+WL_IDLE_STATUS	wl_definitions.h	/^        WL_IDLE_STATUS = 0,$/;"	e	enum:__anon10
+WL_IPV4_LENGTH	wl_definitions.h	44;"	d
+WL_MAC_ADDR_LENGTH	wl_definitions.h	42;"	d
+WL_MAX_ATTEMPT_CONNECTION	wl_definitions.h	50;"	d
+WL_NETWORKS_LIST_MAXNUM	wl_definitions.h	46;"	d
+WL_NO_SHIELD	wl_definitions.h	/^        WL_NO_SHIELD = 255,$/;"	e	enum:__anon10
+WL_NO_SSID_AVAIL	wl_definitions.h	/^        WL_NO_SSID_AVAIL,$/;"	e	enum:__anon10
+WL_SCAN_COMPLETED	wl_definitions.h	/^        WL_SCAN_COMPLETED,$/;"	e	enum:__anon10
+WL_SSID_MAX_LENGTH	wl_definitions.h	36;"	d
+WL_SUCCESS	wl_types.h	/^        WL_SUCCESS = 1,$/;"	e	enum:__anon11
+WL_WEP_KEY_MAX_LENGTH	wl_definitions.h	40;"	d
+WL_WPA_KEY_MAX_LENGTH	wl_definitions.h	38;"	d
+WPA	WiFi.h	24;"	d
+WiFiClient_Available	WiFiClient.c	/^int32_t WiFiClient_Available(void) $/;"	f	signature:(void)
+WiFiClient_Available	WiFiClient.h	/^int32_t  WiFiClient_Available(void);$/;"	p	signature:(void)
+WiFiClient_Connect	WiFiClient.c	/^int32_t WiFiClient_Connect(uint8_t* NetAddr, uint16_t port)$/;"	f	signature:(uint8_t* NetAddr, uint16_t port)
+WiFiClient_Connect	WiFiClient.h	/^int32_t  WiFiClient_Connect(uint8_t* NetAddr, uint16_t port);$/;"	p	signature:(uint8_t* NetAddr, uint16_t port)
+WiFiClient_Connected	WiFiClient.c	/^uint8_t WiFiClient_Connected(void) $/;"	f	signature:(void)
+WiFiClient_Connected	WiFiClient.h	/^uint8_t  WiFiClient_Connected(void);$/;"	p	signature:(void)
+WiFiClient_Flush	WiFiClient.c	/^void WiFiClient_Flush(void) $/;"	f	signature:(void)
+WiFiClient_Flush	WiFiClient.h	/^void     WiFiClient_Flush(void);$/;"	p	signature:(void)
+WiFiClient_Init	WiFiClient.c	/^void WiFiClient_Init(void) $/;"	f	signature:(void)
+WiFiClient_Init	WiFiClient.h	/^void     WiFiClient_Init(void);$/;"	p	signature:(void)
+WiFiClient_Peek	WiFiClient.c	/^int32_t WiFiClient_Peek(void) $/;"	f	signature:(void)
+WiFiClient_Peek	WiFiClient.h	/^int32_t  WiFiClient_Peek(void);$/;"	p	signature:(void)
+WiFiClient_ReadBlock	WiFiClient.c	/^int32_t WiFiClient_ReadBlock(uint8_t* buf, uint16_t size)$/;"	f	signature:(uint8_t* buf, uint16_t size)
+WiFiClient_ReadBlock	WiFiClient.h	/^int32_t  WiFiClient_ReadBlock(uint8_t* buf, uint16_t size);$/;"	p	signature:(uint8_t* buf, uint16_t size)
+WiFiClient_ReadByte	WiFiClient.c	/^uint8_t WiFiClient_ReadByte(void) $/;"	f	signature:(void)
+WiFiClient_ReadByte	WiFiClient.h	/^uint8_t  WiFiClient_ReadByte(void);$/;"	p	signature:(void)
+WiFiClient_Status	WiFiClient.c	/^uint8_t WiFiClient_Status(void) $/;"	f	signature:(void)
+WiFiClient_Status	WiFiClient.h	/^uint8_t  WiFiClient_Status(void);$/;"	p	signature:(void)
+WiFiClient_Stop	WiFiClient.c	/^void WiFiClient_Stop(void) $/;"	f	signature:(void)
+WiFiClient_Stop	WiFiClient.h	/^void     WiFiClient_Stop(void);$/;"	p	signature:(void)
+WiFiClient_WriteBlock	WiFiClient.c	/^uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size) $/;"	f	signature:(uint8_t *buf, uint16_t size)
+WiFiClient_WriteBlock	WiFiClient.h	/^uint16_t WiFiClient_WriteBlock(uint8_t *buf, uint16_t size);$/;"	p	signature:(uint8_t *buf, uint16_t size)
+WiFiClient_WriteByte	WiFiClient.c	/^uint16_t WiFiClient_WriteByte(uint8_t b) $/;"	f	signature:(uint8_t b)
+WiFiClient_WriteByte	WiFiClient.h	/^uint16_t WiFiClient_WriteByte(uint8_t b);$/;"	p	signature:(uint8_t b)
+WiFiDrv_Disconnect	wifi_drv.c	/^int8_t WiFiDrv_Disconnect(void)$/;"	f	signature:(void)
+WiFiDrv_Disconnect	wifi_drv.h	/^int8_t   WiFiDrv_Disconnect(void);$/;"	p	signature:(void)
+WiFiDrv_GetConnectionStatus	wifi_drv.c	/^uint8_t WiFiDrv_GetConnectionStatus(void)$/;"	f	signature:(void)
+WiFiDrv_GetConnectionStatus	wifi_drv.h	/^uint8_t  WiFiDrv_GetConnectionStatus(void);$/;"	p	signature:(void)
+WiFiDrv_GetCurrentBSSID	wifi_drv.c	/^uint8_t* WiFiDrv_GetCurrentBSSID(void)$/;"	f	signature:(void)
+WiFiDrv_GetCurrentBSSID	wifi_drv.h	/^uint8_t* WiFiDrv_GetCurrentBSSID(void);$/;"	p	signature:(void)
+WiFiDrv_GetCurrentEncryptionType	wifi_drv.c	/^uint8_t WiFiDrv_GetCurrentEncryptionType(void)$/;"	f	signature:(void)
+WiFiDrv_GetCurrentEncryptionType	wifi_drv.h	/^uint8_t  WiFiDrv_GetCurrentEncryptionType(void);$/;"	p	signature:(void)
+WiFiDrv_GetCurrentRSSI	wifi_drv.c	/^int32_t WiFiDrv_GetCurrentRSSI(void)$/;"	f	signature:(void)
+WiFiDrv_GetCurrentRSSI	wifi_drv.h	/^int32_t  WiFiDrv_GetCurrentRSSI(void);$/;"	p	signature:(void)
+WiFiDrv_GetCurrentSSID	wifi_drv.c	/^uint8_t* WiFiDrv_GetCurrentSSID(void)$/;"	f	signature:(void)
+WiFiDrv_GetCurrentSSID	wifi_drv.h	/^uint8_t* WiFiDrv_GetCurrentSSID(void);$/;"	p	signature:(void)
+WiFiDrv_GetEncTypeNetowrks	wifi_drv.c	/^uint8_t WiFiDrv_GetEncTypeNetowrks(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFiDrv_GetEncTypeNetowrks	wifi_drv.h	/^uint8_t  WiFiDrv_GetEncTypeNetowrks(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFiDrv_GetFwVersion	wifi_drv.c	/^uint8_t*  WiFiDrv_GetFwVersion(void)$/;"	f	signature:(void)
+WiFiDrv_GetFwVersion	wifi_drv.h	/^uint8_t* WiFiDrv_GetFwVersion(void);$/;"	p	signature:(void)
+WiFiDrv_GetGatewayIP	wifi_drv.c	/^void WiFiDrv_GetGatewayIP(uint8_t *ip)$/;"	f	signature:(uint8_t *ip)
+WiFiDrv_GetGatewayIP	wifi_drv.h	/^void     WiFiDrv_GetGatewayIP(uint8_t *ip);$/;"	p	signature:(uint8_t *ip)
+WiFiDrv_GetHostByName	wifi_drv.c	/^int32_t WiFiDrv_GetHostByName(uint8_t* aHostname, uint8_t *aResult)$/;"	f	signature:(uint8_t* aHostname, uint8_t *aResult)
+WiFiDrv_GetHostByName	wifi_drv.h	/^int32_t  WiFiDrv_GetHostByName(uint8_t* aHostname, uint8_t *aResult);$/;"	p	signature:(uint8_t* aHostname, uint8_t *aResult)
+WiFiDrv_GetIpAddress	wifi_drv.c	/^void WiFiDrv_GetIpAddress(uint8_t *ip)$/;"	f	signature:(uint8_t *ip)
+WiFiDrv_GetIpAddress	wifi_drv.h	/^void     WiFiDrv_GetIpAddress(uint8_t *ip);$/;"	p	signature:(uint8_t *ip)
+WiFiDrv_GetMacAddress	wifi_drv.c	/^uint8_t* WiFiDrv_GetMacAddress(void)$/;"	f	signature:(void)
+WiFiDrv_GetMacAddress	wifi_drv.h	/^uint8_t* WiFiDrv_GetMacAddress(void);$/;"	p	signature:(void)
+WiFiDrv_GetNetworkData	wifi_drv.c	/^void WiFiDrv_GetNetworkData(uint8_t *ip, uint8_t *mask, uint8_t *gwip)$/;"	f	signature:(uint8_t *ip, uint8_t *mask, uint8_t *gwip)
+WiFiDrv_GetNetworkData	wifi_drv.h	/^void     WiFiDrv_GetNetworkData(uint8_t *ip, uint8_t *mask, uint8_t *gwip);$/;"	p	signature:(uint8_t *ip, uint8_t *mask, uint8_t *gwip)
+WiFiDrv_GetRSSINetoworks	wifi_drv.c	/^int32_t WiFiDrv_GetRSSINetoworks(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFiDrv_GetRSSINetoworks	wifi_drv.h	/^int32_t  WiFiDrv_GetRSSINetoworks(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFiDrv_GetSSIDNetoworks	wifi_drv.c	/^uint8_t* WiFiDrv_GetSSIDNetoworks(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFiDrv_GetSSIDNetoworks	wifi_drv.h	/^uint8_t* WiFiDrv_GetSSIDNetoworks(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFiDrv_GetScanNetworks	wifi_drv.c	/^uint8_t WiFiDrv_GetScanNetworks(void)$/;"	f	signature:(void)
+WiFiDrv_GetScanNetworks	wifi_drv.h	/^uint8_t  WiFiDrv_GetScanNetworks(void);$/;"	p	signature:(void)
+WiFiDrv_GetSubnetMask	wifi_drv.c	/^void WiFiDrv_GetSubnetMask(uint8_t *mask)$/;"	f	signature:(uint8_t *mask)
+WiFiDrv_GetSubnetMask	wifi_drv.h	/^void     WiFiDrv_GetSubnetMask(uint8_t *mask);$/;"	p	signature:(uint8_t *mask)
+WiFiDrv_Init	wifi_drv.c	/^void WiFiDrv_Init(void)$/;"	f	signature:(void)
+WiFiDrv_Init	wifi_drv.h	/^void     WiFiDrv_Init(void);$/;"	p	signature:(void)
+WiFiDrv_ReqHostByName	wifi_drv.c	/^uint8_t WiFiDrv_ReqHostByName(uint8_t* aHostname)$/;"	f	signature:(uint8_t* aHostname)
+WiFiDrv_ReqHostByName	wifi_drv.h	/^uint8_t  WiFiDrv_ReqHostByName(uint8_t* aHostname);$/;"	p	signature:(uint8_t* aHostname)
+WiFiDrv_SetKey	wifi_drv.c	/^int8_t WiFiDrv_SetKey(uint8_t* ssid, uint8_t ssid_len, uint8_t key_idx, uint8_t *key, uint8_t len)$/;"	f	signature:(uint8_t* ssid, uint8_t ssid_len, uint8_t key_idx, uint8_t *key, uint8_t len)
+WiFiDrv_SetKey	wifi_drv.h	/^int8_t   WiFiDrv_SetKey(uint8_t* ssid, uint8_t ssid_len, uint8_t key_idx, uint8_t *key, uint8_t len);$/;"	p	signature:(uint8_t* ssid, uint8_t ssid_len, uint8_t key_idx, uint8_t *key, uint8_t len)
+WiFiDrv_SetNetwork	wifi_drv.c	/^int8_t WiFiDrv_SetNetwork(uint8_t* ssid, uint8_t ssid_len)$/;"	f	signature:(uint8_t* ssid, uint8_t ssid_len)
+WiFiDrv_SetNetwork	wifi_drv.h	/^int8_t   WiFiDrv_SetNetwork(uint8_t* ssid, uint8_t ssid_len);$/;"	p	signature:(uint8_t* ssid, uint8_t ssid_len)
+WiFiDrv_SetPassphrase	wifi_drv.c	/^int8_t WiFiDrv_SetPassphrase(uint8_t* ssid, uint8_t ssid_len, uint8_t *passphrase, uint8_t len)$/;"	f	signature:(uint8_t* ssid, uint8_t ssid_len, uint8_t *passphrase, uint8_t len)
+WiFiDrv_SetPassphrase	wifi_drv.h	/^int8_t   WiFiDrv_SetPassphrase(uint8_t* ssid, uint8_t ssid_len, uint8_t *passphrase, uint8_t len);$/;"	p	signature:(uint8_t* ssid, uint8_t ssid_len, uint8_t *passphrase, uint8_t len)
+WiFiDrv_StartScanNetworks	wifi_drv.c	/^int8_t WiFiDrv_StartScanNetworks(void)$/;"	f	signature:(void)
+WiFiDrv_StartScanNetworks	wifi_drv.h	/^int8_t   WiFiDrv_StartScanNetworks(void);$/;"	p	signature:(void)
+WiFiServer_Available	WiFiServer.c	/^uint8_t WiFiServer_Available(void)$/;"	f	signature:(void)
+WiFiServer_Available	WiFiServer.h	/^uint8_t  WiFiServer_Available(void);$/;"	p	signature:(void)
+WiFiServer_Init	WiFiServer.c	/^void WiFiServer_Init(uint16_t port)$/;"	f	signature:(uint16_t port)
+WiFiServer_Init	WiFiServer.h	/^void     WiFiServer_Init(uint16_t port);$/;"	p	signature:(uint16_t port)
+WiFiServer_Status	WiFiServer.c	/^uint8_t WiFiServer_Status()$/;"	f
+WiFiServer_Status	WiFiServer.h	/^uint8_t  WiFiServer_Status();$/;"	p	signature:()
+WiFiServer_WriteBlock	WiFiServer.c	/^uint16_t WiFiServer_WriteBlock(uint8_t *buf, uint16_t size)$/;"	f	signature:(uint8_t *buf, uint16_t size)
+WiFiServer_WriteBlock	WiFiServer.h	/^uint16_t WiFiServer_WriteBlock(uint8_t *buf, uint16_t size);$/;"	p	signature:(uint8_t *buf, uint16_t size)
+WiFiServer_WriteByte	WiFiServer.c	/^uint16_t WiFiServer_WriteByte(uint8_t b)$/;"	f	signature:(uint8_t b)
+WiFiServer_WriteByte	WiFiServer.h	/^uint16_t WiFiServer_WriteByte(uint8_t b);$/;"	p	signature:(uint8_t b)
+WiFi_BSSIDGet	WiFi.c	/^uint8_t* WiFi_BSSIDGet(uint8_t* bssid)$/;"	f	signature:(uint8_t* bssid)
+WiFi_BSSIDGet	WiFi.h	/^uint8_t* WiFi_BSSIDGet(uint8_t* bssid);$/;"	p	signature:(uint8_t* bssid)
+WiFi_Begin	WiFi.c	/^int32_t WiFi_Begin(uint8_t NetType, uint8_t* ssid, ...)$/;"	f	signature:(uint8_t NetType, uint8_t* ssid, ...)
+WiFi_Begin	WiFi.h	/^int32_t  WiFi_Begin(uint8_t NetType, uint8_t* ssid, ...);$/;"	p	signature:(uint8_t NetType, uint8_t* ssid, ...)
+WiFi_Disconnect	WiFi.c	/^int8_t WiFi_Disconnect(void)$/;"	f	signature:(void)
+WiFi_Disconnect	WiFi.h	/^int8_t   WiFi_Disconnect(void);$/;"	p	signature:(void)
+WiFi_EncryptionTypeGet	WiFi.c	/^uint8_t WiFi_EncryptionTypeGet(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFi_EncryptionTypeGet	WiFi.h	/^uint8_t  WiFi_EncryptionTypeGet(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFi_FwVerGet	WiFi.c	/^uint8_t* WiFi_FwVerGet(void)$/;"	f	signature:(void)
+WiFi_FwVerGet	WiFi.h	/^uint8_t* WiFi_FwVerGet(void);$/;"	p	signature:(void)
+WiFi_GatewayIPGet	WiFi.c	/^void WiFi_GatewayIPGet(uint8_t * gateway)$/;"	f	signature:(uint8_t * gateway)
+WiFi_GatewayIPGet	WiFi.h	/^void     WiFi_GatewayIPGet(uint8_t * gateway);$/;"	p	signature:(uint8_t * gateway)
+WiFi_HostToIP	WiFi.c	/^int32_t WiFi_HostToIP(uint8_t* aHostname, uint8_t * aResult)$/;"	f	signature:(uint8_t* aHostname, uint8_t * aResult)
+WiFi_HostToIP	WiFi.h	/^int32_t  WiFi_HostToIP(uint8_t* aHostname, uint8_t * aResult);$/;"	p	signature:(uint8_t* aHostname, uint8_t * aResult)
+WiFi_Init	WiFi.c	/^void WiFi_Init(void)$/;"	f	signature:(void)
+WiFi_Init	WiFi.h	/^void     WiFi_Init(void);$/;"	p	signature:(void)
+WiFi_LocalIPGet	WiFi.c	/^void WiFi_LocalIPGet(uint8_t * ip)$/;"	f	signature:(uint8_t * ip)
+WiFi_LocalIPGet	WiFi.h	/^void     WiFi_LocalIPGet(uint8_t * ip);$/;"	p	signature:(uint8_t * ip)
+WiFi_MacAddrGet	WiFi.c	/^uint8_t* WiFi_MacAddrGet(uint8_t* mac)$/;"	f	signature:(uint8_t* mac)
+WiFi_MacAddrGet	WiFi.h	/^uint8_t* WiFi_MacAddrGet(uint8_t* mac);$/;"	p	signature:(uint8_t* mac)
+WiFi_RSSIGet	WiFi.c	/^int32_t WiFi_RSSIGet(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFi_RSSIGet	WiFi.h	/^int32_t  WiFi_RSSIGet(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFi_SSIDGet	WiFi.c	/^uint8_t* WiFi_SSIDGet(uint8_t networkItem)$/;"	f	signature:(uint8_t networkItem)
+WiFi_SSIDGet	WiFi.h	/^uint8_t* WiFi_SSIDGet(uint8_t networkItem);$/;"	p	signature:(uint8_t networkItem)
+WiFi_ScanNetworks	WiFi.c	/^int8_t WiFi_ScanNetworks(void)$/;"	f	signature:(void)
+WiFi_ScanNetworks	WiFi.h	/^int8_t   WiFi_ScanNetworks(void);$/;"	p	signature:(void)
+WiFi_StatusGet	WiFi.c	/^uint8_t WiFi_StatusGet(void)$/;"	f	signature:(void)
+WiFi_StatusGet	WiFi.h	/^uint8_t  WiFi_StatusGet(void);$/;"	p	signature:(void)
+WiFi_SubnetMaskGet	WiFi.c	/^void WiFi_SubnetMaskGet(uint8_t * mask)$/;"	f	signature:(uint8_t * mask)
+WiFi_SubnetMaskGet	WiFi.h	/^void     WiFi_SubnetMaskGet(uint8_t * mask);$/;"	p	signature:(uint8_t * mask)
+_ConnectViaHost	WiFiClient.c	/^static int32_t _ConnectViaHost(uint8_t* host, uint16_t port) $/;"	f	file:	signature:(uint8_t* host, uint16_t port)
+_ConnectViaHost	WiFiClient.c	/^static int32_t _ConnectViaHost(uint8_t* host, uint16_t port);$/;"	p	file:	signature:(uint8_t* host, uint16_t port)
+_ConnectViaIP	WiFiClient.c	/^static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port) $/;"	f	file:	signature:(uint8_t* ip, uint16_t port)
+_ConnectViaIP	WiFiClient.c	/^static int32_t _ConnectViaIP(uint8_t* ip, uint16_t port);$/;"	p	file:	signature:(uint8_t* ip, uint16_t port)
+_DELAY_H_	delay.h	2;"	d
+_GetHostByName	wifi_drv.c	/^static int32_t _GetHostByName(uint8_t *aResult)$/;"	f	file:	signature:(uint8_t *aResult)
+_GetHostByName	wifi_drv.c	/^static int32_t _GetHostByName(uint8_t *aResult);$/;"	p	file:	signature:(uint8_t *aResult)
+_IPToNetAddr	WiFiClient.c	/^static int32_t _IPToNetAddr(uint8_t * IPStr, uint8_t * NetAddr)$/;"	f	file:	signature:(uint8_t * IPStr, uint8_t * NetAddr)
+_IPToNetAddr	WiFiClient.c	/^static int32_t _IPToNetAddr(uint8_t* IPStr, uint8_t * NetAddr);$/;"	p	file:	signature:(uint8_t* IPStr, uint8_t * NetAddr)
+_SOCKET_H_	socket.h	9;"	d
+_SPI_DRV_H_	spi_drv.h	2;"	d
+_WIFICLIENT_H_	WiFiClient.h	2;"	d
+_WIFISERVER_H_	WiFiServer.h	2;"	d
+_WIFI_H_	WiFi.h	2;"	d
+_WL_TYPES_H_	wl_types.h	10;"	d
+_WiFI_DRV_H_	wifi_drv.h	2;"	d
+_WiFiBeginOpen	WiFi.c	/^static int _WiFiBeginOpen(uint8_t* ssid)$/;"	f	file:	signature:(uint8_t* ssid)
+_WiFiBeginOpen	WiFi.c	/^static int _WiFiBeginOpen(uint8_t* ssid);$/;"	p	file:	signature:(uint8_t* ssid)
+_WiFiBeginWep	WiFi.c	/^int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx, uint8_t* key)$/;"	f	signature:(uint8_t* ssid, uint8_t key_idx, uint8_t* key)
+_WiFiBeginWep	WiFi.c	/^int _WiFiBeginWep(uint8_t* ssid, uint8_t key_idx,uint8_t* key);$/;"	p	file:	signature:(uint8_t* ssid, uint8_t key_idx,uint8_t* key)
+_WiFiBeginWpa	WiFi.c	/^static int  _WiFiBeginWpa(uint8_t* ssid, uint8_t* passphrase)$/;"	f	file:	signature:(uint8_t* ssid, uint8_t* passphrase)
+_WiFiBeginWpa	WiFi.c	/^static int _WiFiBeginWpa(uint8_t* ssid, uint8_t* passphrase);$/;"	p	file:	signature:(uint8_t* ssid, uint8_t* passphrase)
+_bssid	wifi_drv.c	/^static uint8_t  _bssid[WL_MAC_ADDR_LENGTH];$/;"	v	file:
+_fwVersion	wifi_drv.c	/^static uint8_t  _fwVersion[WL_FW_VER_LENGTH];$/;"	v	file:
+_gatewayIp	wifi_drv.c	/^static uint8_t  _gatewayIp[WL_IPV4_LENGTH];$/;"	v	file:
+_localIp	wifi_drv.c	/^static uint8_t  _localIp[WL_IPV4_LENGTH];$/;"	v	file:
+_mac	wifi_drv.c	/^static uint8_t  _mac[WL_MAC_ADDR_LENGTH];$/;"	v	file:
+_networkSsid	wifi_drv.c	/^static uint8_t  _networkSsid[WL_NETWORKS_LIST_MAXNUM][WL_SSID_MAX_LENGTH];$/;"	v	file:
+_port	WiFiServer.c	/^static uint16_t _port = 0;$/;"	v	file:
+_sock	WiFi.c	/^uint8_t   _sock = 0;$/;"	v
+_ssid	wifi_drv.c	/^static uint8_t  _ssid[WL_SSID_MAX_LENGTH];$/;"	v	file:
+_subnetMask	wifi_drv.c	/^static uint8_t  _subnetMask[WL_IPV4_LENGTH];$/;"	v	file:
+close	socket.c	/^void close(SOCKET s) {} \/\/ Close socket$/;"	f	signature:(SOCKET s)
+close	socket.h	/^extern void close(SOCKET s); \/\/ Close socket$/;"	p	signature:(SOCKET s)
+cmd	wifi_spi.h	/^    uint8_t     cmd;$/;"	m	struct:__anon4
+cmd	wifi_spi.h	/^    uint8_t     cmd;$/;"	m	struct:__anon5
+cmd	wifi_spi.h	/^    uint8_t     cmd;$/;"	m	struct:__anon6
+connect	socket.c	/^uint8 connect(SOCKET s, uint8 * addr, uint16 port) {return 0;} \/\/ Establish TCP connection (Active connection)$/;"	f	signature:(SOCKET s, uint8 * addr, uint16 port)
+connect	socket.h	/^extern uint8 connect(SOCKET s, uint8 * addr, uint16 port); \/\/ Establish TCP connection (Active connection)$/;"	p	signature:(SOCKET s, uint8 * addr, uint16 port)
+data	wifi_spi.h	/^    uint8_t*    data;$/;"	m	struct:__anon3
+dataLen	wifi_spi.h	/^    uint16_t    dataLen;$/;"	m	struct:__anon3
+delay	WiFi.c	/^static void delay(volatile uint32_t tick)$/;"	f	file:	signature:(volatile uint32_t tick)
+delay	server_drv.c	/^static void delay(volatile uint32_t tick)$/;"	f	file:	signature:(volatile uint32_t tick)
+delay	spi_drv.c	/^static void delay(volatile uint32_t tick)$/;"	f	file:	signature:(volatile uint32_t tick)
+delay	wifi_drv.c	/^static void delay(volatile uint32_t tick)$/;"	f	file:	signature:(volatile uint32_t tick)
+disconnect	socket.c	/^void disconnect(SOCKET s) {} \/\/ disconnect the connection$/;"	f	signature:(SOCKET s)
+disconnect	socket.h	/^extern void disconnect(SOCKET s); \/\/ disconnect the connection$/;"	p	signature:(SOCKET s)
+igmpsend	socket.c	/^uint16 igmpsend(SOCKET s, const uint8 * buf, uint16 len) {return 0;}$/;"	f	signature:(SOCKET s, const uint8 * buf, uint16 len)
+igmpsend	socket.h	/^extern uint16 igmpsend(SOCKET s, const uint8 * buf, uint16 len);$/;"	p	signature:(SOCKET s, const uint8 * buf, uint16 len)
+int16	socket.h	/^typedef int int16;$/;"	t
+int32	socket.h	/^typedef long int32;$/;"	t
+int8	socket.h	/^typedef char int8;$/;"	t
+listen	socket.c	/^uint8 listen(SOCKET s) { return 0;}	\/\/ Establish TCP connection (Passive connection)$/;"	f	signature:(SOCKET s)
+listen	socket.h	/^extern uint8 listen(SOCKET s);	\/\/ Establish TCP connection (Passive connection)$/;"	p	signature:(SOCKET s)
+nParam	wifi_spi.h	/^    uint8_t     nParam;$/;"	m	struct:__anon4
+nParam	wifi_spi.h	/^    uint8_t     nParam;$/;"	m	struct:__anon5
+nParam	wifi_spi.h	/^    uint8_t     nParam;$/;"	m	struct:__anon6
+numParams	wifi_spi.h	/^enum numParams{$/;"	g
+param	wifi_spi.h	/^    uint16_t    param;$/;"	m	struct:__anon8
+param	wifi_spi.h	/^    uint32_t    param;$/;"	m	struct:__anon7
+param	wifi_spi.h	/^    uint8_t     param;$/;"	m	struct:__anon9
+param	wifi_spi.h	/^    uint8_t*    param;$/;"	m	struct:__anon2
+paramLen	wifi_spi.h	/^    uint8_t     paramLen;$/;"	m	struct:__anon2
+paramLen	wifi_spi.h	/^    uint8_t     paramLen;$/;"	m	struct:__anon7
+paramLen	wifi_spi.h	/^    uint8_t     paramLen;$/;"	m	struct:__anon8
+paramLen	wifi_spi.h	/^    uint8_t     paramLen;$/;"	m	struct:__anon9
+params	wifi_spi.h	/^    tDataParam  params[MAX_PARAMS];$/;"	m	struct:__anon5
+params	wifi_spi.h	/^    tParam      params[MAX_PARAMS];$/;"	m	struct:__anon4
+recv	socket.c	/^uint16 recv(SOCKET s, uint8 * buf, uint16 len) {return 0;}	\/\/ Receive data (TCP)$/;"	f	signature:(SOCKET s, uint8 * buf, uint16 len)
+recv	socket.h	/^extern uint16 recv(SOCKET s, uint8 * buf, uint16 len);	\/\/ Receive data (TCP)$/;"	p	signature:(SOCKET s, uint8 * buf, uint16 len)
+recvfrom	socket.c	/^uint16 recvfrom(SOCKET s, uint8 * buf, uint16 len, uint8 * addr, uint16  *port) {return 0;} \/\/ Receive data (UDP\/IP RAW)$/;"	f	signature:(SOCKET s, uint8 * buf, uint16 len, uint8 * addr, uint16 *port)
+recvfrom	socket.h	/^extern uint16 recvfrom(SOCKET s, uint8 * buf, uint16 len, uint8 * addr, uint16  *port); \/\/ Receive data (UDP\/IP RAW)$/;"	p	signature:(SOCKET s, uint8 * buf, uint16 len, uint8 * addr, uint16 *port)
+send	socket.c	/^uint16 send(SOCKET s, const uint8 * buf, uint16 len) { return 0;} \/\/ Send data (TCP)$/;"	f	signature:(SOCKET s, const uint8 * buf, uint16 len)
+send	socket.h	/^extern uint16 send(SOCKET s, const uint8 * buf, uint16 len); \/\/ Send data (TCP)$/;"	p	signature:(SOCKET s, const uint8 * buf, uint16 len)
+sendto	socket.c	/^uint16 sendto(SOCKET s, const uint8 * buf, uint16 len, uint8 * addr, uint16 port) {return 0;} \/\/ Send data (UDP\/IP RAW)$/;"	f	signature:(SOCKET s, const uint8 * buf, uint16 len, uint8 * addr, uint16 port)
+sendto	socket.h	/^extern uint16 sendto(SOCKET s, const uint8 * buf, uint16 len, uint8 * addr, uint16 port); \/\/ Send data (UDP\/IP RAW)$/;"	p	signature:(SOCKET s, const uint8 * buf, uint16 len, uint8 * addr, uint16 port)
+socket	socket.c	/^SOCKET socket(uint8 protocol) {return 0;} \/\/ Opens a socket(TCP or UDP or IP_RAW mode)$/;"	f	signature:(uint8 protocol)
+socket	socket.h	/^extern SOCKET socket(uint8 protocol); \/\/ Opens a socket(TCP or UDP or IP_RAW mode)$/;"	p	signature:(uint8 protocol)
+tByteParam	wifi_spi.h	/^}tByteParam;$/;"	t	typeref:struct:__anon9
+tDataParam	wifi_spi.h	/^}tDataParam;$/;"	t	typeref:struct:__anon3
+tIntParam	wifi_spi.h	/^}tIntParam;$/;"	t	typeref:struct:__anon8
+tLongParam	wifi_spi.h	/^}tLongParam;$/;"	t	typeref:struct:__anon7
+tParam	wifi_spi.h	/^}tParam;$/;"	t	typeref:struct:__anon2
+tSpiHdr	wifi_spi.h	/^}tSpiHdr;$/;"	t	typeref:struct:__anon6
+tSpiMsg	wifi_spi.h	/^}tSpiMsg;$/;"	t	typeref:struct:__anon4
+tSpiMsgData	wifi_spi.h	/^}tSpiMsgData;$/;"	t	typeref:struct:__anon5
+tcmd	wifi_spi.h	/^    uint8_t     tcmd;$/;"	m	struct:__anon4
+tcmd	wifi_spi.h	/^    uint8_t     tcmd;$/;"	m	struct:__anon5
+tcmd	wifi_spi.h	/^    uint8_t     tcmd;$/;"	m	struct:__anon6
+u_char	socket.h	/^typedef uint8			u_char;		\/**< 8-bit value *\/$/;"	t
+u_int	socket.h	/^typedef uint16			u_int;		\/**< 16-bit value *\/$/;"	t
+u_long	socket.h	/^typedef uint32			u_long;		\/**< 32-bit value *\/$/;"	t
+u_short	socket.h	/^typedef uint16			u_short;	\/**< 16-bit value *\/$/;"	t
+uint16	socket.h	/^typedef unsigned int uint16;$/;"	t
+uint32	socket.h	/^typedef unsigned long uint32;$/;"	t
+uint8	socket.h	/^typedef unsigned char uint8;$/;"	t
+vint16	socket.h	/^typedef volatile int vint16;$/;"	t
+vint32	socket.h	/^typedef volatile long vint32;$/;"	t
+vint8	socket.h	/^typedef volatile char vint8;$/;"	t
+vuint16	socket.h	/^typedef volatile unsigned int vuint16;$/;"	t
+vuint32	socket.h	/^typedef volatile unsigned long vuint32;$/;"	t
+vuint8	socket.h	/^typedef volatile unsigned char vuint8;$/;"	t
+wl_auth_mode	wl_types.h	/^enum wl_auth_mode {$/;"	g
+wl_enc_type	wl_definitions.h	/^enum wl_enc_type {  \/* Values map to 802.11 encryption suites... *\/$/;"	g
+wl_error_code_t	wl_types.h	/^} wl_error_code_t;$/;"	t	typeref:enum:__anon11
+wl_status_t	wl_definitions.h	/^} wl_status_t;$/;"	t	typeref:enum:__anon10
+wl_tcp_state	wifi_spi.h	/^enum wl_tcp_state {$/;"	g

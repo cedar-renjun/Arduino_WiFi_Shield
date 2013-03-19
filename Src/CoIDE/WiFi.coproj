@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G" name="WiFi">
+  <Target name="WiFi" isCurrent="1">
+    <Device manufacturerId="4" manufacturerName="Freescale" chipId="86" chipName="MKL25Z128VLK4" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="MKL25Z128VLK4"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00003000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00001000" startValue="0x1FFFE000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/wifi/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="WiFi"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="CMSIS-DAP"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value="C:\Program Files\SEGGER\JLinkARM_V460a\JLinkGDBServerCL.exe"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="KLxx_128_PRG_NO_CFG.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <Files>
+    <File name="Cox_Lib/inc/xacmp.h" path="../CoX_Peripheral_KLx/libcox/xacmp.h" type="1"/>
+    <File name="Cox_Lib/src/xdebug.c" path="../CoX_Peripheral_KLx/libcox/xdebug.c" type="1"/>
+    <File name="Cox_Lib/inc/xhw_gpio.h" path="../CoX_Peripheral_KLx/libcox/xhw_gpio.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_acmp.h" path="../CoX_Peripheral_KLx/libcox/xhw_acmp.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_i2c.h" path="../CoX_Peripheral_KLx/libcox/xhw_i2c.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_wdt.h" path="../CoX_Peripheral_KLx/libcox/xhw_wdt.h" type="1"/>
+    <File name="Cox_Lib/inc/xrtc.h" path="../CoX_Peripheral_KLx/libcox/xrtc.h" type="1"/>
+    <File name="WiFi_Lib/src/spi_drv.c" path="../WiFi_Lib/spi_drv.c" type="1"/>
+    <File name="Cox_Lib/inc/xpwm.h" path="../CoX_Peripheral_KLx/libcox/xpwm.h" type="1"/>
+    <File name="Cox_Lib/inc/xwdt.h" path="../CoX_Peripheral_KLx/libcox/xwdt.h" type="1"/>
+    <File name="WiFi_Lib/src/delay.c" path="../WiFi_Lib/delay.c" type="1"/>
+    <File name="Cox_Lib/src/xi2c.c" path="../CoX_Peripheral_KLx/libcox/xi2c.c" type="1"/>
+    <File name="Cox_Lib/inc/xhw_nvic.h" path="../CoX_Peripheral_KLx/libcox/xhw_nvic.h" type="1"/>
+    <File name="WiFi_Lib/inc/server_drv.h" path="../WiFi_Lib/server_drv.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_tpm.h" path="../CoX_Peripheral_KLx/libcox/xhw_tpm.h" type="1"/>
+    <File name="WiFi_Lib/inc/wl_definitions.h" path="../WiFi_Lib/wl_definitions.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_dma.h" path="../CoX_Peripheral_KLx/libcox/xhw_dma.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_rtc.h" path="../CoX_Peripheral_KLx/libcox/xhw_rtc.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_memmap.h" path="../CoX_Peripheral_KLx/libcox/xhw_memmap.h" type="1"/>
+    <File name="Cox_Lib/src/xpwm.c" path="../CoX_Peripheral_KLx/libcox/xpwm.c" type="1"/>
+    <File name="WiFi_Lib/src" path="" type="2"/>
+    <File name="WiFi_Lib/src/WiFi.c" path="../WiFi_Lib/WiFi.c" type="1"/>
+    <File name="WiFi_Lib/inc/delay.h" path="../WiFi_Lib/delay.h" type="1"/>
+    <File name="Startup/startup_coide.c" path="../CoX_Peripheral_KLx/startup/startup_coide.c" type="1"/>
+    <File name="Cox_Lib/inc/xspi.h" path="../CoX_Peripheral_KLx/libcox/xspi.h" type="1"/>
+    <File name="Cox_Lib/src/xwdt.c" path="../CoX_Peripheral_KLx/libcox/xwdt.c" type="1"/>
+    <File name="Cox_Lib/src/xspi.c" path="../CoX_Peripheral_KLx/libcox/xspi.c" type="1"/>
+    <File name="Cox_Lib/src/xacmp.c" path="../CoX_Peripheral_KLx/libcox/xacmp.c" type="1"/>
+    <File name="WiFi_Lib/src/socket.c" path="../WiFi_Lib/socket.c" type="1"/>
+    <File name="WiFi_Lib/inc/WiFi.h" path="../WiFi_Lib/WiFi.h" type="1"/>
+    <File name="App/DebugPort.c" path="../App/DebugPort.c" type="1"/>
+    <File name="WiFi_Lib/src/WiFiClient.c" path="../WiFi_Lib/WiFiClient.c" type="1"/>
+    <File name="Cox_Lib/inc/xhw_adc.h" path="../CoX_Peripheral_KLx/libcox/xhw_adc.h" type="1"/>
+    <File name="Cox_Lib/inc/xcore.h" path="../CoX_Peripheral_KLx/libcox/xcore.h" type="1"/>
+    <File name="Cox_Lib/src/xrtc.c" path="../CoX_Peripheral_KLx/libcox/xrtc.c" type="1"/>
+    <File name="WiFi_Lib/inc/WiFiServer.h" path="../WiFi_Lib/WiFiServer.h" type="1"/>
+    <File name="Cox_Lib" path="" type="2"/>
+    <File name="App" path="" type="2"/>
+    <File name="WiFi_Lib/inc/socket.h" path="../WiFi_Lib/socket.h" type="1"/>
+    <File name="WiFi_Lib/src/wifi_drv.c" path="../WiFi_Lib/wifi_drv.c" type="1"/>
+    <File name="WiFi_Lib" path="" type="2"/>
+    <File name="Cox_Lib/src/xgpio.c" path="../CoX_Peripheral_KLx/libcox/xgpio.c" type="1"/>
+    <File name="Cox_Lib/src/xuart.c" path="../CoX_Peripheral_KLx/libcox/xuart.c" type="1"/>
+    <File name="Cox_Lib/inc/xhw_ints.h" path="../CoX_Peripheral_KLx/libcox/xhw_ints.h" type="1"/>
+    <File name="WiFi_Lib/src/server_drv.c" path="../WiFi_Lib/server_drv.c" type="1"/>
+    <File name="App/WifiPachubeClient.c" path="../App/WifiPachubeClient.c" type="1"/>
+    <File name="Cox_Lib/inc/xhw_uart.h" path="../CoX_Peripheral_KLx/libcox/xhw_uart.h" type="1"/>
+    <File name="Cox_Lib/src/xadc.c" path="../CoX_Peripheral_KLx/libcox/xadc.c" type="1"/>
+    <File name="WiFi_Lib/inc/wl_types.h" path="../WiFi_Lib/wl_types.h" type="1"/>
+    <File name="Cox_Lib/inc/xdma.h" path="../CoX_Peripheral_KLx/libcox/xdma.h" type="1"/>
+    <File name="Cox_Lib/src/xdma.c" path="../CoX_Peripheral_KLx/libcox/xdma.c" type="1"/>
+    <File name="WiFi_Lib/inc" path="" type="2"/>
+    <File name="Cox_Lib/inc/xuart.h" path="../CoX_Peripheral_KLx/libcox/xuart.h" type="1"/>
+    <File name="WiFi_Lib/inc/WiFiClient.h" path="../WiFi_Lib/WiFiClient.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_sysctl.h" path="../CoX_Peripheral_KLx/libcox/xhw_sysctl.h" type="1"/>
+    <File name="Cox_Lib/src/xsysctl.c" path="../CoX_Peripheral_KLx/libcox/xsysctl.c" type="1"/>
+    <File name="Cox_Lib/inc/xadc.h" path="../CoX_Peripheral_KLx/libcox/xadc.h" type="1"/>
+    <File name="WiFi_Lib/src/WiFiServer.c" path="../WiFi_Lib/WiFiServer.c" type="1"/>
+    <File name="WiFi_Lib/inc/spi_drv.h" path="../WiFi_Lib/spi_drv.h" type="1"/>
+    <File name="Cox_Lib/inc/xsysctl.h" path="../CoX_Peripheral_KLx/libcox/xsysctl.h" type="1"/>
+    <File name="Cox_Lib/src" path="" type="2"/>
+    <File name="Cox_Lib/src/xcore.c" path="../CoX_Peripheral_KLx/libcox/xcore.c" type="1"/>
+    <File name="Cox_Lib/inc" path="" type="2"/>
+    <File name="Cox_Lib/inc/xdebug.h" path="../CoX_Peripheral_KLx/libcox/xdebug.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_types.h" path="../CoX_Peripheral_KLx/libcox/xhw_types.h" type="1"/>
+    <File name="WiFi_Lib/inc/wifi_drv.h" path="../WiFi_Lib/wifi_drv.h" type="1"/>
+    <File name="Startup" path="" type="2"/>
+    <File name="WiFi_Lib/inc/wifi_spi.h" path="../WiFi_Lib/wifi_spi.h" type="1"/>
+    <File name="Cox_Lib/inc/xi2c.h" path="../CoX_Peripheral_KLx/libcox/xi2c.h" type="1"/>
+    <File name="Cox_Lib/inc/xhw_spi.h" path="../CoX_Peripheral_KLx/libcox/xhw_spi.h" type="1"/>
+    <File name="Cox_Lib/inc/xgpio.h" path="../CoX_Peripheral_KLx/libcox/xgpio.h" type="1"/>
+  </Files>
+</Project>

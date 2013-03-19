@@ -1,11 +1,31 @@
-/********************************************************************************
- *  Arduino WiFi Driver
- *  CooCox将Arduino官方WiFi移植到STM32平台，有两套驱动库ST官方外设库和CoX外设库
- * 
-/********************************************************************************
+Q1: How to rebuild the demo
+    1: Use CoIDE(V1.70 or later) to Open "Src/CoIDE/WiFi.coproj" project file
+    2: Enter Project Configuration page, Choose OpenSDA debugger.
+    3: Rebuild the project
 
+Q2: How to Download the Demo Code to Freedom board
+0:  Install PE Driver 1)PE TraceLink Drivers 10.exe 2) PEDrivers_install.exe which can be find
+    in Software folder in wifi demo software package.
+1.  Unplug the Freedom USB cable if attached.  
+2.  Press and hold the RESET/Bootloader button.  
+3.  Plug in a USB cable from a USB Host to the OpenSDA USB port. 
+4.  Release the RESET/Bootloader button. 
+5.  A new removable drive should now be visible in the Host file system with a volume label of 
+    "BOOTLOADER". 
+6.  Drag/drop or copy/paste the "MSD-FRDM-KL25Z_Pemicro_v107.SDA" to the “BOOTLOADER” drive.
+7.  Unplug the USB cable and plug it in again.
+8.  Copy "template.srec" to the MSD removable drive with a volume label of the target hardware
+    (e.g. FRDM-KL25Z).  
+9.  If programming is successful, the embedded application will begin execution automatically.   
+10. Find Virtual serial port ID and open serial tools, configuration parameter: 115200 8-N-1.
+11. Press Reset button to reset Freedom. Now you can see information in serial tool windows.
+  
+Update Log:
+---------------------------------------------------------------------------------------------
+V2.0
+1: Supported the Virtual Serial Port (UART0)
+2: Replaced the delay function with DelayMs/DelayUs
+3: Improved the WebClient Example to make it more stable.
+4: Add Webserver, but wifi will probabaly crash when sending large volume data.
 
-
-
-                                                               CooCox Cedar@Wuhan
-                                                                        2013-2-18
+                                                                              made by coocox

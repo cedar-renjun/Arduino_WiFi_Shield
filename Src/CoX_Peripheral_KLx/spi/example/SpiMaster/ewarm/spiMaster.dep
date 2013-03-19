@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3757702705</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_adc.h</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\16KB_RAM.icf</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xspi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xspi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xhw_ints.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xgpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libcox\xdebug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\startup\src\startup_ewarm.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\spiMaster.out</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.o</file>
+      <file>$PROJ_DIR$\..\src\SpiMaster.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SpiMaster.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SpiMaster.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spiMaster.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xuart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 23 22 14 13 12 25 11 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 22 14 13 12 25 11 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 23 22 21 25 6 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 22 21 25 6 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xsysctl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 23 22 14 13 15 0 25 11 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 22 14 13 15 0 25 11 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xcore.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 23 22 14 25 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 22 14 25 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xdebug.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libcox\xgpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 23 22 14 13 15 25 11 6 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 22 14 13 15 25 11 6 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\startup\src\startup_ewarm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\spiMaster.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 3 40 42 2 32 36 31 44 35 34 4 30 1 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\SpiMaster.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 22 19 21 13 11 24 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 22 19 21 13 11 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

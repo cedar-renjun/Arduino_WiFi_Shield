@@ -1,6 +1,0 @@
-============================How to rebuild demo==============================================
-1: Use IAR6.4 to Open "Src/Proj/template.eww" project file
-2: Enter Project Configure page, rechoose linker file 128KB_Pflash.icf in project file
-3: rebuild the project
-
-                                                                              made by coocox

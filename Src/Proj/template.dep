@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2384702878</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\App\DebugPort.c</file>
+      <file>$PROJ_DIR$\..\App\WifiWebServer.c</file>
+      <file>$PROJ_DIR$\..\App\main.c</file>
+      <file>$PROJ_DIR$\..\App\WifiPachubeClient.c</file>
+      <file>$PROJ_DIR$\..\App\WifiWebClient.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xacmp.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xadc.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xcore.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdebug.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdma.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xgpio.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_acmp.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_adc.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_dma.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_gpio.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_i2c.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_tpm.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_ints.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_memmap.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_nvic.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_rtc.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_spi.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_types.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_uart.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xhw_wdt.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xi2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xpwm.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xrtc.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xspi.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xsysctl.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xuart.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xwdt.h</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xacmp.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xadc.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xcore.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdebug.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdma.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xgpio.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xi2c.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xpwm.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xrtc.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xspi.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xsysctl.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xuart.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xwdt.c</file>
+      <file>$PROJ_DIR$\..\CoX_Peripheral_KLx\startup\startup_ewarm.s</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\socket.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\server_drv.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\spi_drv.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFi.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\wifi_drv.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\wifi_spi.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFiClient.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFiServer.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\wl_definitions.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\wl_types.h</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\server_drv.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\socket.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\spi_drv.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFi.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\wifi_drv.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFiClient.c</file>
+      <file>$PROJ_DIR$\..\WiFi_Lib\WiFiServer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xrtc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\App\uart_example.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\xacmp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xpwm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiWebClient.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\server_drv.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiWebServer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\wifi_drv.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiServer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiWebClient.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiWebServer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart0_example.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart1_example.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xacmp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\DebugPort.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DebugPort.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart1_example.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\xi2c.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_example.o</file>
+      <file>$PROJ_DIR$\..\App\uart1_example.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\template.srec</file>
+      <file>$PROJ_DIR$\128KB_Pflash.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xwdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xadc.o</file>
+      <file>$PROJ_DIR$\..\App\testport.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xadc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiServer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_example.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xi2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xwdt.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\xpwm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xgpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiPachubeClient.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xdebug.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiClient.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WiFiClient.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\xuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\WifiPachubeClient.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\template.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\xsysctl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xcore.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\server_drv.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\testport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xrtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wifi_drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\template.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart0_example.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.o</file>
+      <file>$PROJ_DIR$\..\App\uart0_example.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\App\DebugPort.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\WifiWebServer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 128 140 84 80 82 69 78 101 70 27 132 67 68 150 49 53 56 51 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 128 140 84 80 82 69 78 101 70 27 132 67 68 150 49 53 56 51 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\WifiPachubeClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\WifiWebClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xacmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 17 18 23 5 8 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 17 18 23 5 8 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xadc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 17 18 23 6 22 8 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 17 18 23 6 22 8 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xcore.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 8 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 8 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdebug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xdma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 23 13 8 7 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 23 13 8 7 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xgpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 14 8 31 7 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 14 8 31 7 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xi2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 15 8 7 31 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 15 8 7 31 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xpwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 8 7 31 16 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 8 7 31 16 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xrtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 20 8 7 31 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 20 8 7 31 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xspi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 21 8 7 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 21 8 7 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xsysctl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 14 12 8 31 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 14 12 8 31 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 24 8 31 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 24 8 31 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\libcox\xwdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 17 18 19 22 25 8 7 31 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 17 18 19 22 25 8 7 31 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CoX_Peripheral_KLx\startup\startup_ewarm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\server_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 50 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 150 140 84 80 82 69 78 101 53 56 50 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\socket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 140 150 84 80 82 69 78 101 48 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 140 150 84 80 82 69 78 101 48 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\spi_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\WiFi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 128 140 84 80 82 69 78 101 70 27 132 67 68 127 150 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56 52 77 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 128 140 84 80 82 69 78 101 70 27 132 67 68 127 150 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56 52 77 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\wifi_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128 140 84 80 82 69 78 101 70 27 67 68 150 50 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56 52 77 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128 140 84 80 82 69 78 101 70 27 67 68 150 50 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 56 52 77 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\WiFiClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 150 140 84 80 82 69 78 101 57 77 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 52 54 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 150 140 84 80 82 69 78 101 57 77 51 128 70 27 132 67 68 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 53 52 54 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\WiFi_Lib\WiFiServer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 140 84 80 82 69 78 101 70 68 49 150 53 56 51 128 27 132 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 140 84 80 82 69 78 101 70 68 49 150 53 56 51 128 27 132 127 50 23 17 19 18 8 7 31 22 14 10 24 32 21 30 52 77 54 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\uart_example.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\uart1_example.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\testport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32 21 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\template.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 105 96 130 129 114 125 139 147 111 149 83 94 109 93 116 113 76 117 73 66 137 136 133 108 121 99 98 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\App\uart0_example.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 140 84 80 82 69 78 101 128 70 27 67 68 127 23 17 19 18 8 7 31 22 14 10 24 32</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
